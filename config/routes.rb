@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+  root to: 'check_ins#new'
+
   resources :check_in_images
 
   resources :check_ins

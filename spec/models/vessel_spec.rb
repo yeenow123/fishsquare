@@ -11,6 +11,8 @@
 #  notes          :text
 #  created_at     :datetime
 #  updated_at     :datetime
+#  length         :string(255)
+#  color          :string(255)
 #
 
 require 'rails_helper'

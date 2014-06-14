@@ -1,38 +1,26 @@
 <div class="container">
 
+<% if notice && notice.length > 0 %>
+<div class="alert alert-info alert-dismissable">
+  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
 <p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Lat:</strong>
-  <%= @check_in.lat %>
-</p>
-
-<p>
-  <strong>Lng:</strong>
-  <%= @check_in.lng %>
-</p>
-
-<p>
-  <strong>Type:</strong>
-  <%= @check_in.report_type %>
-</p>
-
-<p>
-  <strong>Fishing type:</strong>
-  <%= @check_in.fishing_type %>
-</p>
-
-<p>
-  <strong>Notes:</strong>
-  <%= @check_in.notes %>
-</p>
-
-<% unless @check_in.vessel %>
-  <a href="/check_in/vessel/new/<%=@check_in.id%>">Add Vessel +</a>
-<% else %>
-  Existing Vessel Details
+</div>
 <% end %>
 
+<div style="border-bottom: 1px solid #e5e5e5;">
+	<h2>
+  		<%= @check_in.report_type %>
+	</h2>
+</div>
+
+<% if @check_in.notes && @check_in.notes.length > 0 %>
+	<div class="form-group">
+  		<strong>Notes:</strong>
+  		<%= @check_in.notes %>
+	</div>
+<% end %>
+
+<%= render :partial => '/vessels/vessel_partial' %>
 
 <br><br>
 <%= link_to 'Edit', edit_check_in_path(@check_in) %> |

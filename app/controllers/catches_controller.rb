@@ -69,6 +69,6 @@ class CatchesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def catch_params
-      params.require(:catch).permit(:check_in_id, :species, :notes)
+      params.require(:catch).permit(:check_in_id, :species, :notes, :fishing_style)
     end
 end

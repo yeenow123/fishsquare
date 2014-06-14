@@ -11,31 +11,44 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :check_in_id %><br>
-    <%= f.number_field :check_in_id %>
-  </div>
-  <div class="field">
+  <% if params[:check_in_id] %>
+    <%= f.hidden_field :check_in_id, :value => params[:check_in_id].to_i %>
+  <% end %>
+
+  <!-- ######## Vessel type -->
+  <div class="form-group">
     <%= f.label :vessel_type %><br>
-    <%= f.text_field :vessel_type %>
+    <%= f.select(:vessel_type, options_for_select([['Commercial Trawler', 'Commercial Trawler'], ['Seiner', 'Seiner'], ['Line Vessel','Line Vessel'], ['Jigger','Jigger'], ['Dredge','Dredge'], ['Small // Artisan','Small // Artisan'] ]), {}, {:class => 'form-control'} ) %>
   </div>
-  <div class="field">
+
+  <!-- ######## Vessel length -->
+  <div class="form-group">
+    <%= f.label :length, 'Vessel Length' %><br>
+    <%= f.select(:length, options_for_select([['Smaller than 6 meters (20 ft)', 'Smaller than 6 meters (20 ft)'], ['6 - 12 meters (20 - 40 ft)', '6 - 12 meters (20 - 40 ft)'], ['12 - 18 meters (40 - 60 ft)','12 - 18 meters (40 - 60 ft)'], ['Bigger than 18 meters (60 ft)','Bigger than 18 meters (60 ft)'] ]), {}, {:class => 'form-control'} ) %>
+  </div>
+
+  <!-- ######## Vessel length -->
+  <div class="form-group">
+    <%= f.label :estimated_crew, 'Number of Crew Members' %><br>
+    <%= f.select(:estimated_crew, options_for_select([['Less than 3', 'Less than 3'], ['4 to 10', '4 to 10'], ['11 to 20','11 to 20'], ['More than 20','More than 20'] ]), {}, {:class => 'form-control'} ) %>
+  </div>
+  <div class="form-group">
+    <%= f.label :color, "Vessel Color" %><br>
+    <%= f.text_field :color, :class => "form-control", :placeholder => " ex. Green and Red" %>
+  </div>
+  <div class="form-group">
     <%= f.label :vessel_number %><br>
-    <%= f.text_field :vessel_number %>
+    <%= f.text_field :vessel_number, :class => "form-control", :placeholder => " If available" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :vessel_name %><br>
-    <%= f.text_field :vessel_name %>
+    <%= f.text_field :vessel_name, :class => "form-control", :placeholder => " If available" %>
   </div>
-  <div class="field">
-    <%= f.label :estimated_crew %><br>
-    <%= f.text_field :estimated_crew %>
-  </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :notes %><br>
-    <%= f.text_area :notes %>
+    <%= f.text_area :notes, :class => "form-control" %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Submit", :class => "btn btn-default" %>
   </div>
 <% end %>

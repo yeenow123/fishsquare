@@ -25,10 +25,11 @@ class VesselsController < ApplicationController
   # POST /vessels.json
   def create
     @vessel = Vessel.new(vessel_params)
+    check_in_id = @vessel.check_in_id.to_s
 
     respond_to do |format|
       if @vessel.save
-        format.html { redirect_to @vessel, notice: 'Vessel was successfully created.' }
+        format.html { redirect_to "/check_ins/" + check_in_id, notice: 'Vessel was successfully created.' }
         format.json { render :show, status: :created, location: @vessel }
       else
         format.html { render :new }
@@ -69,6 +70,6 @@ class VesselsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def vessel_params
-      params.require(:vessel).permit(:check_in_id, :vessel_type, :vessel_number, :vessel_name, :estimated_crew, :notes)
+      params.require(:vessel).permit(:check_in_id, :vessel_type, :vessel_number, :vessel_name, :estimated_crew, :notes, :length, :color)
     end
 end

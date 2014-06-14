@@ -1,0 +1,40 @@
+<% unless @check_in.vessel %>
+  <div class="form-group">
+    <form action="/check_in/vessel/new/<%=@check_in.id%>">
+        <input type="submit" value="Add Vessel Description + " class="btn btn-default btn-lg">
+    </form>
+  </div>
+<% else %>
+  <h4>Vessel Description</h4>
+  <div class="form-group">
+
+    <strong>Vessel Type:</strong>
+    <%= @check_in.vessel.vessel_type %><br>
+
+    <strong>Length:</strong>
+    <%= @check_in.vessel.length %><br>
+
+    <% if @check_in.vessel.color && @check_in.vessel.color.length > 0 %>
+      <strong>Color:</strong>
+      <%= @check_in.vessel.color %><br>
+    <% end %>
+
+    <strong>Number of Crew:</strong>
+    <%= @check_in.vessel.estimated_crew %><br>
+
+    <% if @check_in.vessel.vessel_number && @check_in.vessel.vessel_number.length > 0 %>
+      <strong>Vessel ID Number:</strong>
+      <%= @check_in.vessel.vessel_number %><br>
+    <% end %>
+
+    <% if @check_in.vessel.vessel_name && @check_in.vessel.vessel_name.length > 0 %>
+      <strong>Vessel Name:</strong>
+      <%= @check_in.vessel.vessel_name %><br>   
+    <% end %>
+
+    <% if @check_in.vessel.notes && @check_in.vessel.notes.length > 0 %>
+      <strong>Notes:</strong>
+      <%= @check_in.vessel.notes %>
+    <% end %>
+  </div>
+<% end %>

@@ -14,13 +14,7 @@
   <!-- ######## Reason for checkin -->
   <div class="form-group">
     <%= f.label :report_type, "Reason" %><br>
-    <%= f.select(:report_type, options_for_select([['Poaching // Illegal Fishing', 'Poaching // Illegal Fishing'], ['Habitat Degradation', 'Habitat Degradation'], ['Marine Debris','Marine Debris'], ['Poor Water Quality','Poor Water Quality'], ['Fisheries by Catch','Fisheries by Catch'] ])) %>
-  </div>
-
-  <!-- ######## Type of fishing (appears is Reason is 'Poaching // Illegal Fishing') -->
-  <div class="field" style="display: none;">
-    <%= f.label :fishing_type %><br>
-    <%= f.text_field :fishing_type %>
+    <%= f.select(:report_type, options_for_select([['Poaching // Illegal Fishing', 'Poaching // Illegal Fishing'], ['Habitat Degradation', 'Habitat Degradation'], ['Marine Debris','Marine Debris'], ['Poor Water Quality','Poor Water Quality'] ])) %>
   </div>
 
   <!-- ######## Latitude and Longitude -->
@@ -28,11 +22,11 @@
     <div class="form-inline">
       <div class="form-group">
         <%= f.label :lat, "Latitude" %><br>
-        <%= f.text_field :lat, :class => "form-control", :value => 40.7033, :placeholder => "Latitude" %>
+        <%= f.text_field :lat, :class => "form-control", :value => 30, :placeholder => "Latitude" %>
       </div>
       <div class="form-group">
         <%= f.label :lat, "Longitude" %><br>
-        <%= f.text_field :lng, :class => "form-control", :value => -73.9744, :placeholder => "Longitude" %>
+        <%= f.text_field :lng, :class => "form-control", :value => 31, :placeholder => "Longitude" %>
       </div>
     </div>
   </div>
@@ -86,6 +80,9 @@
       title:"You are here!"
     });
 
+    document.getElementById("check_in_lat").value = position.coords.latitude;
+    document.getElementById("check_in_lng").value = position.coords.longitude;    
+
   }
 
   var ready;
@@ -93,9 +90,9 @@
     initialize();
   };
 
+  //workaround for turbolinks
   $(document).ready(ready);
   $(document).on('page:load', ready);
-  //workaround for turbolinks
   //google.maps.event.addDomListener(window, 'load', initialize);
 
 </script>
