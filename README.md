@@ -1,4 +1,0 @@
-fishsquare
-==========
-
-Foursquare for FISH
