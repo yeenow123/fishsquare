@@ -33,6 +33,10 @@
 	</div>
 <% end %>
 
+<% if @check_in.has_catch? %>
+  <%= render :partial => 'catches/catches' %>
+<% end %>
+
 <%= render :partial => '/vessels/vessel_partial' %>
 
 

@@ -1,0 +1,24 @@
+<% unless @check_in.catch %>
+  <div class="form-group">
+    <form action="/check_in/catch/new/<%=@check_in.id%>">
+        <input type="submit" value="Add Catch Description + " class="btn btn-default btn-lg">
+    </form>
+  </div>
+<% else %>
+<div style="border-bottom: 1px solid #e5e5e5;">
+  <h4>Catch Description</h4>
+  <div class="form-group">
+
+    <strong>Species:</strong>
+    <%= @check_in.catch.species %><br>
+
+    <strong>Fishing Style:</strong>
+    <%= @check_in.catch.fishing_style %><br>
+
+    <% if @check_in.catch.notes && @check_in.catch.notes.length > 0 %>
+      <strong>Notes:</strong>
+      <%= @check_in.catch.notes %>
+    <% end %>
+  </div>
+</div>
+<% end %>
