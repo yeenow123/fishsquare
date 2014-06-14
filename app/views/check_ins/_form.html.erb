@@ -15,7 +15,7 @@
 
   <div class="form-group">
     <%= f.label :report_time, "Time" %><br>
-    <%= f.datetime_select :report_time %>
+    <%= f.datetime_select :report_time, :default => DateTime.now %>
   </div>
 
   <div class="form-group">
@@ -57,17 +57,26 @@
 
 <script>
   var map;
+  var marker;
+  var coords;
   function initialize() {
     var mapOptions = {
       zoom: 2,
       center: new google.maps.LatLng(30, 31)
     };
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+    coords = new google.maps.LatLng(30, 31);
+    marker = new google.maps.Marker({
+      position: coords,
+      map: map,
+      title:"You are here!"
+    });
     navigator.geolocation.getCurrentPosition(success);
   }
   function success(position) {
 
-    var coords = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+    coords = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
   
     var options = {
       zoom: 14,
@@ -80,7 +89,7 @@
     };
     map = new google.maps.Map(document.getElementById("map-canvas"), options);
 
-    var marker = new google.maps.Marker({
+    marker = new google.maps.Marker({
       position: coords,
       map: map,
       title:"You are here!"
