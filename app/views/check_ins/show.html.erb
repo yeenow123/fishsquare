@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Lat:</strong>
+  <%= @check_in.lat %>
+</p>
+
+<p>
+  <strong>Lng:</strong>
+  <%= @check_in.lng %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @check_in.type %>
+</p>
+
+<p>
+  <strong>Fishing type:</strong>
+  <%= @check_in.fishing_type %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @check_in.notes %>
+</p>
+
+<%= link_to 'Edit', edit_check_in_path(@check_in) %> |
+<%= link_to 'Back', check_ins_path %>

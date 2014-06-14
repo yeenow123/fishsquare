@@ -1,0 +1,25 @@
+<%= form_for(@check_in_image) do |f| %>
+  <% if @check_in_image.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@check_in_image.errors.count, "error") %> prohibited this check_in_image from being saved:</h2>
+
+      <ul>
+      <% @check_in_image.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :check_in_id %><br>
+    <%= f.number_field :check_in_id %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

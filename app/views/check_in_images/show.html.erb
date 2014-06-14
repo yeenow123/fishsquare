@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Check in:</strong>
+  <%= @check_in_image.check_in_id %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @check_in_image.description %>
+</p>
+
+<%= link_to 'Edit', edit_check_in_image_path(@check_in_image) %> |
+<%= link_to 'Back', check_in_images_path %>

@@ -1,0 +1,29 @@
+<%= form_for(@catch) do |f| %>
+  <% if @catch.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@catch.errors.count, "error") %> prohibited this catch from being saved:</h2>
+
+      <ul>
+      <% @catch.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :check_in_id %><br>
+    <%= f.number_field :check_in_id %>
+  </div>
+  <div class="field">
+    <%= f.label :species %><br>
+    <%= f.text_field :species %>
+  </div>
+  <div class="field">
+    <%= f.label :notes %><br>
+    <%= f.text_area :notes %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

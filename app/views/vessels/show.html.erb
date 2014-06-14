@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Check in:</strong>
+  <%= @vessel.check_in_id %>
+</p>
+
+<p>
+  <strong>Vessel type:</strong>
+  <%= @vessel.vessel_type %>
+</p>
+
+<p>
+  <strong>Vessel number:</strong>
+  <%= @vessel.vessel_number %>
+</p>
+
+<p>
+  <strong>Vessel name:</strong>
+  <%= @vessel.vessel_name %>
+</p>
+
+<p>
+  <strong>Estimated crew:</strong>
+  <%= @vessel.estimated_crew %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @vessel.notes %>
+</p>
+
+<%= link_to 'Edit', edit_vessel_path(@vessel) %> |
+<%= link_to 'Back', vessels_path %>

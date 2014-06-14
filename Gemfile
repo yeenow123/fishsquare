@@ -13,6 +13,21 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
+# Use ActiveModel has_secure_password
+gem 'bcrypt-ruby', '~> 3.1.2'
+# Devise is used for authentication and protected attributes
+gem 'devise', '3.0.0.rc'
+
+
+group :development, :test do
+  # testing
+  gem 'capybara'
+  gem 'rspec-rails', '~> 3.0.0.beta'
+  gem 'launchy', '~> 2.4.2'
+end
+
+# images
+gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -26,6 +41,10 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
+group :production do 
+	# use postgresql for production
+	gem 'pg', '0.16.0'
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

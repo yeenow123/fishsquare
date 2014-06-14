@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  resources :check_in_images
+
+  resources :check_ins
+
+  resources :vessels
+
+  resources :catches
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

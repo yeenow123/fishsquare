@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Check in:</strong>
+  <%= @catch.check_in_id %>
+</p>
+
+<p>
+  <strong>Species:</strong>
+  <%= @catch.species %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @catch.notes %>
+</p>
+
+<%= link_to 'Edit', edit_catch_path(@catch) %> |
+<%= link_to 'Back', catches_path %>

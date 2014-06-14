@@ -1,0 +1,27 @@
+<h1>Listing check_in_images</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Check in</th>
+      <th>Description</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @check_in_images.each do |check_in_image| %>
+      <tr>
+        <td><%= check_in_image.check_in_id %></td>
+        <td><%= check_in_image.description %></td>
+        <td><%= link_to 'Show', check_in_image %></td>
+        <td><%= link_to 'Edit', edit_check_in_image_path(check_in_image) %></td>
+        <td><%= link_to 'Destroy', check_in_image, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Check in image', new_check_in_image_path %>

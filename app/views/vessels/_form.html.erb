@@ -1,0 +1,41 @@
+<%= form_for(@vessel) do |f| %>
+  <% if @vessel.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@vessel.errors.count, "error") %> prohibited this vessel from being saved:</h2>
+
+      <ul>
+      <% @vessel.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :check_in_id %><br>
+    <%= f.number_field :check_in_id %>
+  </div>
+  <div class="field">
+    <%= f.label :vessel_type %><br>
+    <%= f.text_field :vessel_type %>
+  </div>
+  <div class="field">
+    <%= f.label :vessel_number %><br>
+    <%= f.text_field :vessel_number %>
+  </div>
+  <div class="field">
+    <%= f.label :vessel_name %><br>
+    <%= f.text_field :vessel_name %>
+  </div>
+  <div class="field">
+    <%= f.label :estimated_crew %><br>
+    <%= f.text_field :estimated_crew %>
+  </div>
+  <div class="field">
+    <%= f.label :notes %><br>
+    <%= f.text_area :notes %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

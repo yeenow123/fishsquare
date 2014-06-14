@@ -1,0 +1,2 @@
+module CheckInImagesHelper
+end

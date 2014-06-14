@@ -1,0 +1,277 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-13 23:57:20 -0400
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.1) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.1) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-13 23:57:20 -0400
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.1) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.1) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.1) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.2ms)
+  [1m[36m (9.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateCheckIns (20140614035156)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateCatches (20140614035244)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "catches" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "check_in_id" integer, "species" varchar(255), "notes" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140614035244"]]
+  [1m[36m (17.4ms)[0m  [1mcommit transaction[0m
+Migrating to CreateVessels (20140614035412)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "vessels" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "check_in_id" integer, "vessel_type" varchar(255), "vessel_number" varchar(255), "vessel_name" varchar(255), "estimated_crew" varchar(255), "notes" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140614035412"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Migrating to CreateCheckIns (20140614035912)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "check_ins" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "lat" float, "lng" float, "type" varchar(255), "fishing_type" varchar(255), "notes" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140614035912"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 00:00:14 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.1.1/lib/rails/templates/rails/welcome/index.html.erb (1.2ms)
+Completed 200 OK in 13ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/checkins" for 127.0.0.1 at 2014-06-14 00:00:20 -0400
+
+ActionController::RoutingError (No route matches [GET] "/checkins"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.8ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.7ms)
+
+
+Started GET "/check_ins" for 127.0.0.1 at 2014-06-14 00:00:26 -0400
+Processing by CheckInsController#index as HTML
+  [1m[35mCheckIn Load (0.1ms)[0m  SELECT "check_ins".* FROM "check_ins"
+  Rendered check_ins/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 770ms (Views: 767.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/check_ins.css?body=1" for 127.0.0.1 at 2014-06-14 00:00:26 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 00:00:26 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 00:00:26 -0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 00:00:26 -0400
+
+
+Started GET "/assets/catches.js?body=1" for 127.0.0.1 at 2014-06-14 00:00:26 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 00:00:26 -0400
+
+
+Started GET "/assets/check_ins.js?body=1" for 127.0.0.1 at 2014-06-14 00:00:26 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 00:00:26 -0400
+
+
+Started GET "/assets/vessels.js?body=1" for 127.0.0.1 at 2014-06-14 00:00:26 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 00:00:26 -0400
+
+
+Started GET "/check_ins" for 127.0.0.1 at 2014-06-14 00:04:32 -0400
+Processing by CheckInsController#index as HTML
+  [1m[36mCheckIn Load (0.1ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"[0m
+  Rendered check_ins/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 81ms (Views: 80.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 00:04:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 00:04:32 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 00:04:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 00:04:32 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 00:04:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 00:04:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 00:04:32 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddAttachmentImageToCheckInImages (20140614041605)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "check_in_images" ADD "image_file_name" varchar(255)[0m
+SQLite3::SQLException: no such table: check_in_images: ALTER TABLE "check_in_images" ADD "image_file_name" varchar(255)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateCheckInImages (20140614042002)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "check_in_images" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "check_in_id" integer, "description" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (7.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20140614042002"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Migrating to AddAttachmentImageToCheckInImages (20140614042018)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "check_in_images" ADD "image_file_name" varchar(255)[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "check_in_images" ADD "image_content_type" varchar(255)
+  [1m[36m (0.1ms)[0m  [1mALTER TABLE "check_in_images" ADD "image_file_size" integer[0m
+  [1m[35m (0.1ms)[0m  ALTER TABLE "check_in_images" ADD "image_updated_at" datetime
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20140614042018"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/check_ins" for 127.0.0.1 at 2014-06-14 00:26:21 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CheckInsController#index as HTML
+  [1m[35mCheckIn Load (0.1ms)[0m  SELECT "check_ins".* FROM "check_ins"
+  Rendered check_ins/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 268ms (Views: 256.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 00:26:22 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 00:26:22 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 00:26:22 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 00:26:22 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 00:26:22 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 00:26:22 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 00:26:22 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 00:26:22 -0400
