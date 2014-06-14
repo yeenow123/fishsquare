@@ -11,27 +11,83 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :lat %><br>
-    <%= f.text_field :lat %>
+  <!-- ######## Reason for checkin -->
+  <div class="form-group">
+    <%= f.label :report_type, "Reason" %><br>
+    <%= f.select(:report_type, options_for_select([['Poaching // Illegal Fishing', 'Poaching // Illegal Fishing'], ['Habitat Degradation', 'Habitat Degradation'], ['Marine Debris','Marine Debris'], ['Poor Water Quality','Poor Water Quality'], ['Fisheries by Catch','Fisheries by Catch'] ])) %>
   </div>
-  <div class="field">
-    <%= f.label :lng %><br>
-    <%= f.text_field :lng %>
-  </div>
-  <div class="field">
-    <%= f.label :type %><br>
-    <%= f.text_field :type %>
-  </div>
-  <div class="field">
+
+  <!-- ######## Type of fishing (appears is Reason is 'Poaching // Illegal Fishing') -->
+  <div class="field" style="display: none;">
     <%= f.label :fishing_type %><br>
     <%= f.text_field :fishing_type %>
   </div>
-  <div class="field">
+
+  <!-- ######## Latitude and Longitude -->
+  <div class="form-group"> 
+    <div class="form-inline">
+      <div class="form-group">
+        <%= f.label :lat, "Latitude" %><br>
+        <%= f.text_field :lat, :class => "form-control", :value => 40.7033, :placeholder => "Latitude" %>
+      </div>
+      <div class="form-group">
+        <%= f.label :lat, "Longitude" %><br>
+        <%= f.text_field :lng, :class => "form-control", :value => -73.9744, :placeholder => "Longitude" %>
+      </div>
+    </div>
+  </div>
+
+  <!-- ######## Map element --> 
+  <div class="form-group">
+    <div id="map-canvas" style="width: 100%; height: 120px; background: #eee; border-radius: 4px;"></div>
+  </div>
+
+  <!-- ######## Notes -->
+  <div class="form-group">
     <%= f.label :notes %><br>
-    <%= f.text_area :notes %>
+    <%= f.text_area :notes, :class => "form-control" %>
   </div>
+
+  <!-- ######## Submit form --> 
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Submit", :class => "btn btn-default" %>
   </div>
+
 <% end %>
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script>
+  var map;
+  function initialize() {
+    var mapOptions = {
+      zoom: 2,
+      center: new google.maps.LatLng(30, 31)
+    };
+    map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+    navigator.geolocation.getCurrentPosition(success);
+  }
+  function success(position) {
+
+    var coords = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+  
+    var options = {
+      zoom: 14,
+      center: coords,
+      mapTypeControl: false,
+      navigationControlOptions: {
+        style: google.maps.NavigationControlStyle.SMALL
+      },
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    map = new google.maps.Map(document.getElementById("map-canvas"), options);
+
+    var marker = new google.maps.Marker({
+      position: coords,
+      map: map,
+      title:"You are here!"
+    });
+
+  }
+  
+  google.maps.event.addDomListener(window, 'load', initialize);
+</script>

@@ -5,7 +5,7 @@
 #  id           :integer          not null, primary key
 #  lat          :float
 #  lng          :float
-#  type         :string(255)
+#  report_type  :string(255)
 #  fishing_type :string(255)
 #  notes        :text
 #  created_at   :datetime
