@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+
   root to: 'check_ins#new'
 
   resources :check_in_images
@@ -9,6 +10,8 @@ Rails.application.routes.draw do
   resources :vessels
 
   resources :catches
+
+  match '/reports', to: 'reports#index', via: 'get'
 
   # routes dealing with vessels
   match '/check_in/vessel/new/:check_in_id', to: 'vessels#new', via: 'get' 
