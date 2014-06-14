@@ -7,6 +7,10 @@ Rails.application.routes.draw do
 
   resources :catches
 
+  # routes dealing with vessels
+  match '/check_in/vessel/new/:check_in_id', to: 'vessels#new', via: 'get' 
+  match '/check_in/vessel/edit/:id/:check_in_id', to: 'vessels#edit', via: 'get' 
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

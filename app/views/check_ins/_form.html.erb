@@ -55,7 +55,6 @@
 
 <% end %>
 
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 <script>
   var map;
   function initialize() {
@@ -88,6 +87,15 @@
     });
 
   }
-  
-  google.maps.event.addDomListener(window, 'load', initialize);
+
+  var ready;
+  ready = function() {
+    initialize();
+  };
+
+  $(document).ready(ready);
+  $(document).on('page:load', ready);
+  //workaround for turbolinks
+  //google.maps.event.addDomListener(window, 'load', initialize);
+
 </script>

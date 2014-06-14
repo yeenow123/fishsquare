@@ -1,3 +1,5 @@
+<div class="container">
+
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -25,5 +27,15 @@
   <%= @check_in.notes %>
 </p>
 
+<% unless @check_in.vessel %>
+  <a href="/check_in/vessel/new/<%=@check_in.id%>">Add Vessel +</a>
+<% else %>
+  Existing Vessel Details
+<% end %>
+
+
+<br><br>
 <%= link_to 'Edit', edit_check_in_path(@check_in) %> |
 <%= link_to 'Back', check_ins_path %>
+
+</div>
