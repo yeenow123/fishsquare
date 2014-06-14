@@ -12,7 +12,6 @@
   <% end %>
 
   <!-- ######## Reason for checkin -->
-
   <div class="form-group">
     <%= f.label :report_time, "Time" %><br>
     <%= f.datetime_select :report_time, :default => DateTime.now %>
@@ -20,7 +19,7 @@
 
   <div class="form-group">
     <%= f.label :report_type, "Reason" %><br>
-    <%= f.select(:report_type, options_for_select([['Poaching // Illegal Fishing', 'Poaching // Illegal Fishing'], ['Habitat Degradation', 'Habitat Degradation'], ['Marine Debris','Marine Debris'], ['Poor Water Quality','Poor Water Quality'] ])) %>
+    <%= f.select(:report_type, options_for_select([['Poaching // Illegal Fishing', 'Poaching // Illegal Fishing'], ['Habitat Degradation', 'Habitat Degradation'], ['Marine Debris','Marine Debris'], ['Poor Water Quality','Poor Water Quality'] ]), {}, {class: "form-control"}) %>
   </div>
 
   <!-- ######## Latitude and Longitude -->
@@ -45,7 +44,7 @@
   <!-- ######## Notes -->
   <div class="form-group">
     <%= f.label :notes %><br>
-    <%= f.text_area :notes, :class => "form-control" %>
+    <%= f.text_area :notes, :class => "form-control", :placeholder => " optional" %>
   </div>
 
   <!-- ######## Submit form --> 
@@ -102,6 +101,7 @@
 
   var ready;
   ready = function() {
+    document.getElementById("check_in_nav").setAttribute("class", "active");
     initialize();
   };
 

@@ -20,11 +20,12 @@
     <%= f.text_area :description, :class => "form-control" %>
   </div>
 
-  <span class="btn btn-default btn-file">
-    Upload <%= f.file_field :image %>
-  </span>
-  <br><br>
-  <div class="actions">
+  <div class="form-group">
+    <%= f.label :image %><br>
+    <%= f.file_field :image %>
+  </div>
+
+  <div class="form-group">
     <%= f.submit "Submit", :class => "btn btn-default" %>
   </div>
 <% end %>

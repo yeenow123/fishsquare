@@ -28,7 +28,7 @@ class CheckInsController < ApplicationController
 
     respond_to do |format|
       if @check_in.save
-        format.html { redirect_to @check_in, notice: 'Great to know. Now tell us more about what you saw' }
+        format.html { redirect_to @check_in, notice: 'Excellent. Tell us more.' }
         format.json { render :show, status: :created, location: @check_in }
       else
         format.html { render :new }

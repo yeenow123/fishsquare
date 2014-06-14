@@ -1,5 +1,10 @@
-<p>
-  <strong>Image of Violation</strong>
-</p>
-
-<%= image_tag image.image.url(:small) %>
+<div style="border-bottom: 1px solid #e5e5e5; margin-bottom: 15px;">
+  <h4>Image</h4>
+  <div class="form-group">
+  	<%= image_tag image.image.url(:small) %>
+  	<% if @check_in.check_in_image.description && @check_in.check_in_image.description.length > 0 %>
+    	<br><strong>Description:</strong>
+    	<%= @check_in.check_in_image.description %>
+    <% end %>
+  </div>
+</div>

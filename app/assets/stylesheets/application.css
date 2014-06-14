@@ -14,6 +14,7 @@
  *= require_self
  *= require bootstrap.min
  *= require jumbotron-narrow.min
+ *= require font-awesome
  */
 
 /*.btn-file {

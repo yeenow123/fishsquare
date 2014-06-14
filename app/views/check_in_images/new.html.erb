@@ -4,6 +4,8 @@
 
 <%= render 'form' %>
 
-<%= link_to 'Back', check_in_images_path %>
+<% if params[:check_in_id] %>
+<%= link_to 'Back', '/check_ins/' + params[:check_in_id] %>
+<% end %>
 
 </div>

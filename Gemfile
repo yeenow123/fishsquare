@@ -17,8 +17,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'bcrypt-ruby', '~> 3.1.2'
 # Devise is used for authentication and protected attributes
 gem 'devise', '3.0.0.rc'
-
-
+# for icons
+gem "font-awesome-rails"
 group :development, :test do
   # testing
   gem 'capybara'
