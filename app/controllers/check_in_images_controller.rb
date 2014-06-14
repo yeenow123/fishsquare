@@ -25,11 +25,11 @@ class CheckInImagesController < ApplicationController
   # POST /check_in_images.json
   def create
     @check_in_image = CheckInImage.new(check_in_image_params)
-
+    check_in_id = @check_in_image.check_in_id.to_s
 
     respond_to do |format|
       if @check_in_image.save
-        format.html { redirect_to @check_in_image.check_in, notice: 'Check in image was successfully created.' }
+        format.html { redirect_to "/check_ins/" + check_in_id, notice: 'Check in image was successfully created.' }
         format.json { render :show, status: :created, location: @check_in_image }
       else
         format.html { render :new }

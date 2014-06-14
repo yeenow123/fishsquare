@@ -11,18 +11,20 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :check_in_id %><br>
-    <%= f.number_field :check_in_id %>
-  </div>
-  <div class="field">
-    <%= f.file_field :image %>
-  </div>
-  <div class="field">
+  <% if params[:check_in_id] %>
+    <%= f.hidden_field :check_in_id, :value => params[:check_in_id].to_i %>
+  <% end %>
+
+  <div class="form-group">
     <%= f.label :description %><br>
-    <%= f.text_area :description %>
+    <%= f.text_area :description, :class => "form-control" %>
   </div>
+
+  <span class="btn btn-default btn-file">
+    Upload <%= f.file_field :image %>
+  </span>
+  <br><br>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Submit", :class => "btn btn-default" %>
   </div>
 <% end %>

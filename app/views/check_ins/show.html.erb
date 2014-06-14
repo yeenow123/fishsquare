@@ -31,7 +31,7 @@
     </form>
   </div>
 <% else %>
-  Existing Image Shown
+   <%= render :partial => 'check_in_images/images', locals: { image: @check_in.check_in_image } %>
 <% end %>
 
 
