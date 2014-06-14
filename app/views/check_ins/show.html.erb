@@ -33,6 +33,11 @@
   Existing Vessel Details
 <% end %>
 
+<% unless @check_in.check_in_image %>
+  <a href="/check_in/check_in_images/new/<%=@check_in.id%>">Add Images +</a>
+<% else %>
+  Existing Image Shown
+<% end %>
 
 <br><br>
 <%= link_to 'Edit', edit_check_in_path(@check_in) %> |

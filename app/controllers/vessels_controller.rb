@@ -28,7 +28,7 @@ class VesselsController < ApplicationController
 
     respond_to do |format|
       if @vessel.save
-        format.html { redirect_to @vessel, notice: 'Vessel was successfully created.' }
+        format.html { redirect_to @vessel.check_in, notice: 'Vessel was successfully created.' }
         format.json { render :show, status: :created, location: @vessel }
       else
         format.html { render :new }

@@ -26,9 +26,10 @@ class CheckInImagesController < ApplicationController
   def create
     @check_in_image = CheckInImage.new(check_in_image_params)
 
+
     respond_to do |format|
       if @check_in_image.save
-        format.html { redirect_to @check_in_image, notice: 'Check in image was successfully created.' }
+        format.html { redirect_to @check_in_image.check_in, notice: 'Check in image was successfully created.' }
         format.json { render :show, status: :created, location: @check_in_image }
       else
         format.html { render :new }
@@ -69,6 +70,6 @@ class CheckInImagesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def check_in_image_params
-      params.require(:check_in_image).permit(:check_in_id, :description)
+      params.require(:check_in_image).permit(:check_in_id, :description, :image)
     end
 end

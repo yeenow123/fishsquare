@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   # routes dealing with vessels
   match '/check_in/vessel/new/:check_in_id', to: 'vessels#new', via: 'get' 
   match '/check_in/vessel/edit/:id/:check_in_id', to: 'vessels#edit', via: 'get' 
+  
+  match '/check_in/check_in_images/new/:check_in_id', to: 'check_in_images#new', via: 'get'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -3,6 +3,7 @@
 <table>
   <thead>
     <tr>
+      <th>Report Time</th>
       <th>Lat</th>
       <th>Lng</th>
       <th>Type</th>
@@ -15,6 +16,7 @@
   <tbody>
     <% @check_ins.each do |check_in| %>
       <tr>
+        <td><%= check_in.created_at.strftime("%Y-%m-%d %H:%M") %></td>
         <td><%= check_in.lat %></td>
         <td><%= check_in.lng %></td>
         <td><%= check_in.report_type %></td>
