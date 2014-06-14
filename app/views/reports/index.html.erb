@@ -1,9 +1,7 @@
 
 <div class="container">
 
-	<h1>Reports#index</h1>
-	<p>Find me in app/views/reports/index.html.erb</p>
-</div>
+	<h1>Check-in Reports</h1>
 
   <!-- ######## Map element --> 
   <div class="form-group">
@@ -68,7 +66,7 @@ $(document).on('page:load', ready);
 
 
 
-<h4>Search</h4>
+<h4>Search Check-ins</h4>
 <%= form_tag({controller: "reports", action: "index"}, method: "get") do %>
 
   <div class="form-group">
@@ -83,7 +81,7 @@ $(document).on('page:load', ready);
 
 <% end %>
 
+</div>
 
-	<%= debug @check_ins %>
 </div>
 
