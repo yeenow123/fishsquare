@@ -1,5 +1,28 @@
 
 <div class="container">
-	<h1>Reports#index</h1>
-	<p>Find me in app/views/reports/index.html.erb</p>
+
+
+
+
+
+
+
+
+<h4>Search</h4>
+<%= form_tag({controller: "reports", action: "index"}, method: "get") do %>
+
+  <div class="form-group">
+    <%= label :report_type, "Report Type" %><br>
+    <%= select_tag("report_type", options_for_select([['Poaching // Illegal Fishing', 'Poaching // Illegal Fishing'], ['Habitat Degradation', 'Habitat Degradation'], ['Marine Debris','Marine Debris'], ['Poor Water Quality','Poor Water Quality'] ]), class: "form-control") %>
+  </div>
+
+  <!-- ######## Submit form --> 
+  <div class="form-group">
+	<%= submit_tag("Search", class: "btn btn-default") %>
+  </div>
+
+<% end %>
+
+
+	<%= debug @check_ins %>
 </div>

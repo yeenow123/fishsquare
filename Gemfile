@@ -26,9 +26,12 @@ group :development, :test do
   gem 'launchy', '~> 2.4.2'
 end
 
+# searching
+gem 'sunspot_rails'
+gem 'sunspot_solr'
+gem 'progress_bar'
 # images
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
-
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks

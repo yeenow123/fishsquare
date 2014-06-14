@@ -19452,3 +19452,3503 @@ Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 17:41:
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 17:41:42 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 17:50:03 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (25.2ms)
+  Rendered check_ins/new.html.erb within layouts/application (28.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 121ms (Views: 106.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 17:50:04 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 17:50:04 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 17:50:04 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 17:50:04 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 17:50:04 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 17:50:04 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 17:50:04 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 17:50:04 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 17:50:04 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 17:50:04 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 17:50:04 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 17:50:04 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 17:50:04 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 17:50:40 -0400
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (6.0ms)
+  Rendered check_ins/new.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 17:50:40 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 17:50:40 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 17:50:40 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 17:50:40 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 17:50:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 17:50:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 17:50:40 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 17:50:40 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 17:50:40 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 17:50:40 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 17:50:40 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 17:50:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 17:50:40 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 17:50:48 -0400
+Processing by ReportsController#index as HTML
+  Rendered reports/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 17:58:42 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ReportsController#index as HTML
+  Rendered reports/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 87ms (Views: 78.1ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 17:58:43 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 17:58:43 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 17:58:43 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 17:58:43 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 17:58:43 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 17:58:43 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 17:58:43 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 17:58:43 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 17:58:43 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 17:58:43 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 17:58:43 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 17:58:43 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 17:58:43 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-14 17:58:43 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:05:35 -0400
+Processing by ReportsController#index as HTML
+Completed 500 Internal Server Error in 5ms
+
+LoadError (Unable to autoload constant Check_in, expected /Users/az/Desktop/fishsquare/app/models/check_in.rb to define it):
+  app/controllers/reports_controller.rb:3:in `index'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.6ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:05:48 -0400
+Processing by ReportsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant ReportsController::Check_ins):
+  app/controllers/reports_controller.rb:3:in `index'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.3ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:06:06 -0400
+Processing by ReportsController#index as HTML
+Completed 500 Internal Server Error in 3ms
+
+LoadError (Unable to autoload constant Check_in, expected /Users/az/Desktop/fishsquare/app/models/check_in.rb to define it):
+  app/controllers/reports_controller.rb:3:in `index'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.9ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:06:14 -0400
+Processing by ReportsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant ReportsController::Check_ins):
+  app/controllers/reports_controller.rb:3:in `index'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:06:41 -0400
+Processing by ReportsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant ReportsController::Checkins):
+  app/controllers/reports_controller.rb:3:in `index'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.1ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:06:48 -0400
+Processing by ReportsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant ReportsController::Checkin):
+  app/controllers/reports_controller.rb:3:in `index'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.1ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:06:56 -0400
+Processing by ReportsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant ReportsController::Checkins):
+  app/controllers/reports_controller.rb:3:in `index'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.4ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:07:22 -0400
+Processing by ReportsController#index as HTML
+Completed 500 Internal Server Error in 3ms
+
+LoadError (Unable to autoload constant Check_in, expected /Users/az/Desktop/fishsquare/app/models/check_in.rb to define it):
+  app/controllers/reports_controller.rb:3:in `index'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.6ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:07:37 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ReportsController#index as HTML
+Completed 500 Internal Server Error in 12ms
+
+LoadError (Unable to autoload constant Check_in, expected /Users/az/Desktop/fishsquare/app/models/check_in.rb to define it):
+  app/controllers/reports_controller.rb:3:in `index'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.7ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:07:49 -0400
+Processing by ReportsController#index as HTML
+  Rendered reports/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 78ms (Views: 77.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:07:49 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:07:49 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:07:49 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:49 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:07:49 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:07:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:49 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:49 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:49 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:49 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:49 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:49 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-14 18:07:49 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 18:07:51 -0400
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (70.9ms)
+  Rendered check_ins/new.html.erb within layouts/application (72.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 84ms (Views: 79.3ms | ActiveRecord: 0.4ms | Solr: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:07:51 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:07:51 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:07:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:51 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:07:51 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:07:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:51 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:51 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:51 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:51 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:51 -0400
+
+
+Started GET "/check_ins" for 127.0.0.1 at 2014-06-14 18:07:55 -0400
+Processing by CheckInsController#index as HTML
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT "check_ins".* FROM "check_ins"
+  Rendered check_ins/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:07:55 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:07:55 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:07:55 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:07:55 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:55 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:07:55 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:55 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:55 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:55 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:55 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:55 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:55 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:07:55 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-14 18:07:55 -0400
+  [1m[36mCheckIn Load (1.5ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"[0m
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:08:58 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (100.5ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  Rendered reports/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 205ms (Views: 81.2ms | ActiveRecord: 0.0ms | Solr: 100.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:08:58 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:08:58 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:08:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:08:58 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:08:58 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:08:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:08:58 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:08:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:08:58 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:08:58 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:08:58 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:08:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:08:58 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:09:33 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (5.7ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  Rendered reports/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 7.4ms | ActiveRecord: 0.0ms | Solr: 5.7ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:09:33 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:09:33 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:09:33 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:09:33 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:09:33 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:09:33 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:09:33 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:09:33 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:09:33 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:09:33 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:09:33 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:09:33 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:09:33 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:09:59 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (28.1ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Poaching"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  Rendered reports/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 42ms (Views: 10.0ms | ActiveRecord: 0.0ms | Solr: 28.1ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:09:59 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:09:59 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:09:59 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:09:59 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:09:59 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:09:59 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:09:59 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:09:59 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:09:59 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:09:59 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:09:59 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:09:59 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:09:59 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:10:01 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (4.5ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Poaching"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  Rendered reports/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 6.4ms | ActiveRecord: 0.0ms | Solr: 4.5ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:10:01 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:10:01 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:10:01 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:10:01 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:10:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:10:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:10:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:10:01 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:10:01 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:10:01 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:10:01 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:10:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:10:01 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 18:11:30 -0400
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (59.9ms)
+  Rendered check_ins/new.html.erb within layouts/application (60.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 68ms (Views: 66.3ms | ActiveRecord: 0.4ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:11:30 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:11:30 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:11:30 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:11:30 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:11:30 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:11:30 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:11:30 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:11:30 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:11:30 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:11:30 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:11:30 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:11:30 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:11:30 -0400
+
+
+Started POST "/check_ins" for 127.0.0.1 at 2014-06-14 18:11:36 -0400
+Processing by CheckInsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hU3CPJuayck/NyOYsZwJLxTa1lnr21C2ATkccpIbarE=", "check_in"=>{"report_time(1i)"=>"2014", "report_time(2i)"=>"6", "report_time(3i)"=>"14", "report_time(4i)"=>"18", "report_time(5i)"=>"11", "report_type"=>"Poaching // Illegal Fishing", "lat"=>"40.720314599999995", "lng"=>"-73.9991745", "notes"=>""}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "check_ins" ("created_at", "lat", "lng", "notes", "report_time", "report_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-06-14 22:11:36.572892"], ["lat", 40.720314599999995], ["lng", -73.9991745], ["notes", ""], ["report_time", "2014-06-14 18:11:00.000000"], ["report_type", "Poaching // Illegal Fishing"], ["updated_at", "2014-06-14 22:11:36.572892"]]
+  [1m[32mSOLR Request (33.3ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[35m (0.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/check_ins/26
+  [1m[32mSOLR Request (53.5ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+Completed 302 Found in 113ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/check_ins/26" for 127.0.0.1 at 2014-06-14 18:11:36 -0400
+Processing by CheckInsController#show as HTML
+  Parameters: {"id"=>"26"}
+  [1m[36mCheckIn Load (0.2ms)[0m  [1mSELECT  "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" = ? LIMIT 1[0m  [["id", 26]]
+  [1m[35mCatch Load (0.1ms)[0m  SELECT  "catches".* FROM "catches"  WHERE "catches"."check_in_id" = ? LIMIT 1  [["check_in_id", 26]]
+  Rendered catches/_catches.html.erb (15.1ms)
+  [1m[36mVessel Load (0.1ms)[0m  [1mSELECT  "vessels".* FROM "vessels"  WHERE "vessels"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 26]]
+  Rendered vessels/_vessel_partial.html.erb (4.4ms)
+  [1m[35mCheckInImage Load (0.1ms)[0m  SELECT  "check_in_images".* FROM "check_in_images"  WHERE "check_in_images"."check_in_id" = ? LIMIT 1  [["check_in_id", 26]]
+  Rendered check_ins/show.html.erb within layouts/application (28.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 38ms (Views: 34.0ms | ActiveRecord: 1.0ms | Solr: 86.8ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:11:36 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:11:36 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:11:36 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:11:36 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:11:36 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:11:36 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:11:36 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:11:36 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:11:36 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:11:36 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:11:36 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:11:36 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:11:36 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:11:55 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (53.8ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Poaching // Illegal Fishing"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  [1m[36mCheckIn Load (0.2ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (26)[0m
+  Rendered reports/index.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 80ms (Views: 13.8ms | ActiveRecord: 0.7ms | Solr: 53.8ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:14:23 -0400
+Processing by ReportsController#index as HTML
+  [1m[35mCheckIn Load (0.3ms)[0m  SELECT "check_ins".* FROM "check_ins"
+  Rendered reports/index.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 17ms (Views: 12.7ms | ActiveRecord: 0.6ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:14:23 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:14:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:14:23 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:14:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:14:23 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:14:23 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:14:23 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:14:23 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:14:23 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:14:23 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:14:23 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:14:23 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:14:23 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-14 18:14:23 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:14:41 -0400
+Processing by ReportsController#index as HTML
+  [1m[36mCheckIn Load (0.3ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"[0m
+  Rendered reports/index.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 12.2ms | ActiveRecord: 0.5ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:14:41 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:14:41 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:14:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:14:41 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:14:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:14:41 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:14:41 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:14:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:14:41 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:14:41 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:14:41 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:14:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:14:41 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-14 18:14:41 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:15:41 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (4.8ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Poaching // Illegal Fishing"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  [1m[35mCheckIn Load (0.4ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (26)
+  Rendered reports/index.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 23ms (Views: 10.5ms | ActiveRecord: 1.1ms | Solr: 4.8ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:15:41 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:15:41 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:15:41 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:15:41 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:15:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:15:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:15:41 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:15:41 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:15:41 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:15:41 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:15:41 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:15:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:15:41 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 18:16:10 -0400
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (4.4ms)
+  Rendered check_ins/new.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:16:10 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:16:10 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:16:10 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:16:10 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:16:10 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:16:10 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:16:10 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:16:10 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:16:10 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:16:10 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:16:10 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:16:10 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:16:10 -0400
+
+
+Started GET "/check_ins" for 127.0.0.1 at 2014-06-14 18:16:14 -0400
+Processing by CheckInsController#index as HTML
+  [1m[36mCheckIn Load (0.2ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"[0m
+  Rendered check_ins/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:16:14 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:16:14 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:16:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:16:14 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:16:14 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:16:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:16:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:16:14 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:16:14 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:16:14 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:16:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:16:14 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:16:14 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-14 18:16:14 -0400
+
+
+Started GET "/check_ins" for 127.0.0.1 at 2014-06-14 18:18:54 -0400
+Processing by CheckInsController#index as HTML
+  [1m[35mCheckIn Load (0.1ms)[0m  SELECT "check_ins".* FROM "check_ins"
+  Rendered check_ins/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.1ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:18:54 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:18:54 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:18:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:18:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:18:54 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:18:54 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:18:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:18:54 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:18:54 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:18:54 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:18:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:18:54 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:18:54 -0400
+
+
+Started GET "/check_ins" for 127.0.0.1 at 2014-06-14 18:18:56 -0400
+Processing by CheckInsController#index as HTML
+  [1m[36mCheckIn Load (0.1ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"[0m
+  Rendered check_ins/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.1ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:18:56 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:18:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:18:56 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:18:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:18:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:18:56 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:18:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:18:56 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:18:56 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:18:56 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:18:56 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:18:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:18:56 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:18:57 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (6.4ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Poaching // Illegal Fishing"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (26)
+  Rendered reports/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 9.7ms | ActiveRecord: 0.2ms | Solr: 6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 18:19:38 -0400
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (5.2ms)
+  Rendered check_ins/new.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 18:19:38 -0400
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (8.0ms)
+  Rendered check_ins/new.html.erb within layouts/application (9.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:38 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:38 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:38 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:38 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:38 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:38 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:38 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:38 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:38 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:38 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:38 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:38 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:38 -0400
+
+
+Started GET "/check_ins" for 127.0.0.1 at 2014-06-14 18:19:42 -0400
+Processing by CheckInsController#index as HTML
+  [1m[36mCheckIn Load (0.2ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"[0m
+  Rendered check_ins/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:42 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:42 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:42 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:42 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:42 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:42 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:42 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:42 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:42 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:42 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:42 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:42 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:42 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-14 18:19:42 -0400
+
+
+Started DELETE "/check_ins/26" for 127.0.0.1 at 2014-06-14 18:19:45 -0400
+Processing by CheckInsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hU3CPJuayck/NyOYsZwJLxTa1lnr21C2ATkccpIbarE=", "id"=>"26"}
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT  "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" = ? LIMIT 1  [["id", 26]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  DELETE FROM "check_ins" WHERE "check_ins"."id" = ?  [["id", 26]]
+  [1m[32mSOLR Request (5.0ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[36m (7.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/check_ins
+  [1m[32mSOLR Request (26.0ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+Completed 302 Found in 45ms (ActiveRecord: 8.7ms)
+
+
+Started GET "/check_ins" for 127.0.0.1 at 2014-06-14 18:19:45 -0400
+Processing by CheckInsController#index as HTML
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT "check_ins".* FROM "check_ins"
+  Rendered check_ins/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.2ms | Solr: 31.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:45 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:45 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:45 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:45 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:45 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:45 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:45 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:45 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:45 -0400
+
+
+Started DELETE "/check_ins/25" for 127.0.0.1 at 2014-06-14 18:19:46 -0400
+Processing by CheckInsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hU3CPJuayck/NyOYsZwJLxTa1lnr21C2ATkccpIbarE=", "id"=>"25"}
+  [1m[36mCheckIn Load (0.1ms)[0m  [1mSELECT  "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" = ? LIMIT 1[0m  [["id", 25]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "check_ins" WHERE "check_ins"."id" = ?[0m  [["id", 25]]
+  [1m[32mSOLR Request (4.2ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[35m (8.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/check_ins
+  [1m[32mSOLR Request (67.4ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+Completed 302 Found in 85ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/check_ins" for 127.0.0.1 at 2014-06-14 18:19:46 -0400
+Processing by CheckInsController#index as HTML
+  [1m[36mCheckIn Load (0.2ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"[0m
+  Rendered check_ins/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.2ms | Solr: 71.6ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:47 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:47 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:47 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:47 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:47 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:47 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:47 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:47 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:47 -0400
+
+
+Started DELETE "/check_ins/24" for 127.0.0.1 at 2014-06-14 18:19:48 -0400
+Processing by CheckInsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hU3CPJuayck/NyOYsZwJLxTa1lnr21C2ATkccpIbarE=", "id"=>"24"}
+  [1m[35mCheckIn Load (0.1ms)[0m  SELECT  "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" = ? LIMIT 1  [["id", 24]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "check_ins" WHERE "check_ins"."id" = ?  [["id", 24]]
+  [1m[32mSOLR Request (4.2ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[36m (8.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/check_ins
+  [1m[32mSOLR Request (15.6ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+Completed 302 Found in 32ms (ActiveRecord: 8.5ms)
+
+
+Started GET "/check_ins" for 127.0.0.1 at 2014-06-14 18:19:48 -0400
+Processing by CheckInsController#index as HTML
+  [1m[35mCheckIn Load (0.1ms)[0m  SELECT "check_ins".* FROM "check_ins"
+  Rendered check_ins/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.1ms | Solr: 19.9ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:48 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:48 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:48 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:48 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:48 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:48 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:48 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:49 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:49 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:49 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:49 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:49 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:49 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:19:49 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (11.4ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Poaching // Illegal Fishing"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  Rendered reports/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 8.8ms | ActiveRecord: 0.0ms | Solr: 11.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 18:19:51 -0400
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (3.9ms)
+  Rendered check_ins/new.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:51 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:51 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:51 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:51 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:51 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:51 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:51 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:51 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:51 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:51 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:51 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:51 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:51 -0400
+
+
+Started POST "/check_ins" for 127.0.0.1 at 2014-06-14 18:19:54 -0400
+Processing by CheckInsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hU3CPJuayck/NyOYsZwJLxTa1lnr21C2ATkccpIbarE=", "check_in"=>{"report_time(1i)"=>"2014", "report_time(2i)"=>"6", "report_time(3i)"=>"14", "report_time(4i)"=>"18", "report_time(5i)"=>"19", "report_type"=>"Poaching // Illegal Fishing", "lat"=>"40.7203308", "lng"=>"-73.9991419", "notes"=>""}, "commit"=>"Submit"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "check_ins" ("created_at", "lat", "lng", "notes", "report_time", "report_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", "2014-06-14 22:19:54.678618"], ["lat", 40.7203308], ["lng", -73.9991419], ["notes", ""], ["report_time", "2014-06-14 18:19:00.000000"], ["report_type", "Poaching // Illegal Fishing"], ["updated_at", "2014-06-14 22:19:54.678618"]]
+  [1m[32mSOLR Request (10.0ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/check_ins/27
+  [1m[32mSOLR Request (32.4ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+Completed 302 Found in 50ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/check_ins/27" for 127.0.0.1 at 2014-06-14 18:19:54 -0400
+Processing by CheckInsController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[35mCheckIn Load (0.1ms)[0m  SELECT  "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" = ? LIMIT 1  [["id", 27]]
+  [1m[36mCatch Load (0.1ms)[0m  [1mSELECT  "catches".* FROM "catches"  WHERE "catches"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 27]]
+  Rendered catches/_catches.html.erb (3.1ms)
+  [1m[35mVessel Load (0.1ms)[0m  SELECT  "vessels".* FROM "vessels"  WHERE "vessels"."check_in_id" = ? LIMIT 1  [["check_in_id", 27]]
+  Rendered vessels/_vessel_partial.html.erb (3.2ms)
+  [1m[36mCheckInImage Load (0.1ms)[0m  [1mSELECT  "check_in_images".* FROM "check_in_images"  WHERE "check_in_images"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 27]]
+  Rendered check_ins/show.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.8ms | Solr: 42.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:54 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:54 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:54 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:54 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:54 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:54 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:54 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:54 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:54 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:19:56 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (7.8ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Poaching // Illegal Fishing"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  [1m[35mCheckIn Load (0.3ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (27)
+  Rendered reports/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 22ms (Views: 10.8ms | ActiveRecord: 0.3ms | Solr: 7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 18:19:58 -0400
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (4.4ms)
+  Rendered check_ins/new.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:58 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:58 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:58 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:58 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:58 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:19:58 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:58 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:58 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:19:58 -0400
+
+
+Started POST "/check_ins" for 127.0.0.1 at 2014-06-14 18:20:03 -0400
+Processing by CheckInsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hU3CPJuayck/NyOYsZwJLxTa1lnr21C2ATkccpIbarE=", "check_in"=>{"report_time(1i)"=>"2014", "report_time(2i)"=>"6", "report_time(3i)"=>"14", "report_time(4i)"=>"18", "report_time(5i)"=>"19", "report_type"=>"Poaching // Illegal Fishing", "lat"=>"40.7203308", "lng"=>"-73.9991419", "notes"=>""}, "commit"=>"Submit"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "check_ins" ("created_at", "lat", "lng", "notes", "report_time", "report_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", "2014-06-14 22:20:03.112729"], ["lat", 40.7203308], ["lng", -73.9991419], ["notes", ""], ["report_time", "2014-06-14 18:19:00.000000"], ["report_type", "Poaching // Illegal Fishing"], ["updated_at", "2014-06-14 22:20:03.112729"]]
+  [1m[32mSOLR Request (5.2ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/check_ins/28
+  [1m[32mSOLR Request (29.5ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+Completed 302 Found in 42ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/check_ins/28" for 127.0.0.1 at 2014-06-14 18:20:03 -0400
+Processing by CheckInsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[35mCheckIn Load (0.1ms)[0m  SELECT  "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" = ? LIMIT 1  [["id", 28]]
+  [1m[36mCatch Load (0.1ms)[0m  [1mSELECT  "catches".* FROM "catches"  WHERE "catches"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 28]]
+  Rendered catches/_catches.html.erb (0.7ms)
+  [1m[35mVessel Load (0.1ms)[0m  SELECT  "vessels".* FROM "vessels"  WHERE "vessels"."check_in_id" = ? LIMIT 1  [["check_in_id", 28]]
+  Rendered vessels/_vessel_partial.html.erb (0.5ms)
+  [1m[36mCheckInImage Load (0.1ms)[0m  [1mSELECT  "check_in_images".* FROM "check_in_images"  WHERE "check_in_images"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 28]]
+  Rendered check_ins/show.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.3ms | Solr: 34.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:03 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:03 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:03 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:03 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:03 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:03 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:03 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:03 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:03 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:20:04 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (9.6ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Poaching // Illegal Fishing"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  [1m[35mCheckIn Load (0.3ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (27, 28)
+  Rendered reports/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 21ms (Views: 8.1ms | ActiveRecord: 0.3ms | Solr: 9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 18:20:06 -0400
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (4.3ms)
+  Rendered check_ins/new.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:06 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:06 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:06 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:06 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:06 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:06 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:06 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:06 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:06 -0400
+
+
+Started POST "/check_ins" for 127.0.0.1 at 2014-06-14 18:20:08 -0400
+Processing by CheckInsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hU3CPJuayck/NyOYsZwJLxTa1lnr21C2ATkccpIbarE=", "check_in"=>{"report_time(1i)"=>"2014", "report_time(2i)"=>"6", "report_time(3i)"=>"14", "report_time(4i)"=>"18", "report_time(5i)"=>"20", "report_type"=>"Poaching // Illegal Fishing", "lat"=>"40.7203308", "lng"=>"-73.9991419", "notes"=>""}, "commit"=>"Submit"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "check_ins" ("created_at", "lat", "lng", "notes", "report_time", "report_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", "2014-06-14 22:20:08.056923"], ["lat", 40.7203308], ["lng", -73.9991419], ["notes", ""], ["report_time", "2014-06-14 18:20:00.000000"], ["report_type", "Poaching // Illegal Fishing"], ["updated_at", "2014-06-14 22:20:08.056923"]]
+  [1m[32mSOLR Request (5.4ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/check_ins/29
+  [1m[32mSOLR Request (36.4ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+Completed 302 Found in 48ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/check_ins/29" for 127.0.0.1 at 2014-06-14 18:20:08 -0400
+Processing by CheckInsController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[35mCheckIn Load (0.1ms)[0m  SELECT  "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36mCatch Load (0.1ms)[0m  [1mSELECT  "catches".* FROM "catches"  WHERE "catches"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 29]]
+  Rendered catches/_catches.html.erb (0.7ms)
+  [1m[35mVessel Load (0.1ms)[0m  SELECT  "vessels".* FROM "vessels"  WHERE "vessels"."check_in_id" = ? LIMIT 1  [["check_in_id", 29]]
+  Rendered vessels/_vessel_partial.html.erb (0.9ms)
+  [1m[36mCheckInImage Load (0.1ms)[0m  [1mSELECT  "check_in_images".* FROM "check_in_images"  WHERE "check_in_images"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 29]]
+  Rendered check_ins/show.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.4ms | Solr: 41.8ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:08 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:08 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:08 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:08 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:08 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:08 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:08 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:08 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:08 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:08 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:08 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:08 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:08 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:20:10 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (9.0ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Poaching // Illegal Fishing"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (27, 28, 29)
+  Rendered reports/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 22ms (Views: 10.3ms | ActiveRecord: 0.2ms | Solr: 9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 18:20:13 -0400
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (5.4ms)
+  Rendered check_ins/new.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:13 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:13 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:13 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:13 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:13 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:13 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:13 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:13 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:13 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:13 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:13 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:13 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:13 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:20:17 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (6.7ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Poaching // Illegal Fishing"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  [1m[36mCheckIn Load (0.3ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (27, 28, 29)[0m
+  Rendered reports/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 21ms (Views: 11.3ms | ActiveRecord: 0.3ms | Solr: 6.7ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:20:51 -0400
+Processing by ReportsController#index as HTML
+  [1m[35mCheckIn Load (0.3ms)[0m  SELECT "check_ins".* FROM "check_ins"
+  Rendered reports/index.html.erb within layouts/application (10.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 21ms (Views: 16.5ms | ActiveRecord: 0.6ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:52 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:52 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:52 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:52 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:52 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:52 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:52 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:52 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:52 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:52 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:52 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-14 18:20:52 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 18:20:58 -0400
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (4.3ms)
+  Rendered check_ins/new.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:58 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:58 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:58 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:58 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:20:58 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:58 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:58 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:58 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:20:58 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-14 18:20:58 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:24:00 -0400
+Processing by ReportsController#index as HTML
+  [1m[36mCheckIn Load (0.2ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"[0m
+  Rendered reports/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:24:09 -0400
+Processing by ReportsController#index as HTML
+  [1m[35mCheckIn Load (0.1ms)[0m  SELECT "check_ins".* FROM "check_ins"
+  Rendered reports/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.1ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:24:09 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:24:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:24:09 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:24:09 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:24:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:24:09 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:24:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:24:09 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:24:09 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:24:09 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:24:09 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:24:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:24:09 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-14 18:24:09 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:25:01 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (5.3ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Poaching // Illegal Fishing"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  [1m[36mCheckIn Load (0.1ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (27, 28, 29)[0m
+  Rendered reports/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 23ms (Views: 11.3ms | ActiveRecord: 0.5ms | Solr: 5.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:25:01 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:25:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:25:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:25:01 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:25:01 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:25:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:25:01 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:25:02 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:25:02 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:25:02 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:25:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:25:02 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:25:02 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-14 18:25:02 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:25:25 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (3.8ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (27, 28, 29)
+  Rendered reports/index.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 23ms (Views: 13.3ms | ActiveRecord: 0.7ms | Solr: 3.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:25:25 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:25:25 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:25:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:25:25 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:25:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:25:25 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:25:25 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:25:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:25:25 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:25:25 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:25:25 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:25:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:25:25 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:28:25 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (3.8ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[36mCheckIn Load (0.1ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (27, 28, 29)[0m
+  Rendered reports/index.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 21ms (Views: 11.4ms | ActiveRecord: 0.5ms | Solr: 3.8ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:28:25 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:28:25 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:28:25 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:28:25 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:28:25 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:28:25 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:28:25 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:28:25 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:28:25 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:28:25 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:28:25 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:28:25 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:28:25 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:30:17 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (4.2ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (27, 28, 29)
+  Rendered reports/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 22ms (Views: 11.0ms | ActiveRecord: 0.7ms | Solr: 4.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:30:17 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:30:17 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:30:17 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:30:17 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:30:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:30:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:30:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:30:17 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:30:17 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:30:17 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:30:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:30:17 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:30:17 -0400
+
+
+Started GET "/check_ins" for 127.0.0.1 at 2014-06-14 18:32:02 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CheckInsController#index as HTML
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT "check_ins".* FROM "check_ins"
+  Rendered check_ins/index.html.erb within layouts/application (8.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 105ms (Views: 90.1ms | ActiveRecord: 0.4ms | Solr: 0.0ms)
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:03 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:03 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:03 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:03 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:03 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:03 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:03 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:03 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:03 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-14 18:32:03 -0400
+
+
+Started DELETE "/check_ins/27" for 127.0.0.1 at 2014-06-14 18:32:05 -0400
+Processing by CheckInsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hU3CPJuayck/NyOYsZwJLxTa1lnr21C2ATkccpIbarE=", "id"=>"27"}
+  [1m[36mCheckIn Load (0.3ms)[0m  [1mSELECT  "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" = ? LIMIT 1[0m  [["id", 27]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "check_ins" WHERE "check_ins"."id" = ?[0m  [["id", 27]]
+  [1m[32mSOLR Request (5.7ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/check_ins
+  [1m[32mSOLR Request (21.7ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+Completed 302 Found in 58ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/check_ins" for 127.0.0.1 at 2014-06-14 18:32:06 -0400
+Processing by CheckInsController#index as HTML
+  [1m[36mCheckIn Load (0.1ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"[0m
+  Rendered check_ins/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.1ms | Solr: 27.4ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:06 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:06 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:06 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:06 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:06 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:06 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:06 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:06 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:06 -0400
+
+
+Started DELETE "/check_ins/28" for 127.0.0.1 at 2014-06-14 18:32:07 -0400
+Processing by CheckInsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hU3CPJuayck/NyOYsZwJLxTa1lnr21C2ATkccpIbarE=", "id"=>"28"}
+  [1m[35mCheckIn Load (0.1ms)[0m  SELECT  "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" = ? LIMIT 1  [["id", 28]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  DELETE FROM "check_ins" WHERE "check_ins"."id" = ?  [["id", 28]]
+  [1m[32mSOLR Request (4.2ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[36m (7.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/check_ins
+  [1m[32mSOLR Request (12.2ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+Completed 302 Found in 32ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/check_ins" for 127.0.0.1 at 2014-06-14 18:32:07 -0400
+Processing by CheckInsController#index as HTML
+  [1m[35mCheckIn Load (0.1ms)[0m  SELECT "check_ins".* FROM "check_ins"
+  Rendered check_ins/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.1ms | Solr: 16.4ms)
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:07 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:07 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:07 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:07 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:07 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:07 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:07 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:07 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:07 -0400
+
+
+Started DELETE "/check_ins/29" for 127.0.0.1 at 2014-06-14 18:32:09 -0400
+Processing by CheckInsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hU3CPJuayck/NyOYsZwJLxTa1lnr21C2ATkccpIbarE=", "id"=>"29"}
+  [1m[36mCheckIn Load (0.1ms)[0m  [1mSELECT  "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" = ? LIMIT 1[0m  [["id", 29]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "check_ins" WHERE "check_ins"."id" = ?[0m  [["id", 29]]
+  [1m[32mSOLR Request (8.0ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[35m (7.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/check_ins
+  [1m[32mSOLR Request (14.9ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+Completed 302 Found in 35ms (ActiveRecord: 8.2ms)
+
+
+Started GET "/check_ins" for 127.0.0.1 at 2014-06-14 18:32:09 -0400
+Processing by CheckInsController#index as HTML
+  [1m[36mCheckIn Load (0.1ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"[0m
+  Rendered check_ins/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.1ms | Solr: 22.9ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:09 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:09 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:09 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:09 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:09 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:09 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:09 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:09 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:09 -0400
+
+
+Started GET "/check_ins/new" for 127.0.0.1 at 2014-06-14 18:32:10 -0400
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (22.4ms)
+  Rendered check_ins/new.html.erb within layouts/application (24.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started POST "/check_ins" for 127.0.0.1 at 2014-06-14 18:32:14 -0400
+Processing by CheckInsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hU3CPJuayck/NyOYsZwJLxTa1lnr21C2ATkccpIbarE=", "check_in"=>{"report_time(1i)"=>"2014", "report_time(2i)"=>"6", "report_time(3i)"=>"14", "report_time(4i)"=>"18", "report_time(5i)"=>"32", "report_type"=>"Poaching // Illegal Fishing", "lat"=>"40.72034070000001", "lng"=>"-73.9991342", "notes"=>""}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "check_ins" ("created_at", "lat", "lng", "notes", "report_time", "report_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-06-14 22:32:14.673398"], ["lat", 40.72034070000001], ["lng", -73.9991342], ["notes", ""], ["report_time", "2014-06-14 18:32:00.000000"], ["report_type", "Poaching // Illegal Fishing"], ["updated_at", "2014-06-14 22:32:14.673398"]]
+  [1m[32mSOLR Request (16.9ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/check_ins/30
+  [1m[32mSOLR Request (26.1ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+Completed 302 Found in 51ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/check_ins/30" for 127.0.0.1 at 2014-06-14 18:32:14 -0400
+Processing by CheckInsController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mCheckIn Load (0.1ms)[0m  [1mSELECT  "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" = ? LIMIT 1[0m  [["id", 30]]
+  [1m[35mCatch Load (0.1ms)[0m  SELECT  "catches".* FROM "catches"  WHERE "catches"."check_in_id" = ? LIMIT 1  [["check_in_id", 30]]
+  Rendered catches/_catches.html.erb (12.1ms)
+  [1m[36mVessel Load (0.1ms)[0m  [1mSELECT  "vessels".* FROM "vessels"  WHERE "vessels"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 30]]
+  Rendered vessels/_vessel_partial.html.erb (4.2ms)
+  [1m[35mCheckInImage Load (0.2ms)[0m  SELECT  "check_in_images".* FROM "check_in_images"  WHERE "check_in_images"."check_in_id" = ? LIMIT 1  [["check_in_id", 30]]
+  Rendered check_ins/show.html.erb within layouts/application (67.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 75ms (Views: 72.4ms | ActiveRecord: 1.0ms | Solr: 43.0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:14 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:14 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:14 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:14 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:14 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:14 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:14 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:14 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:14 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:14 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:14 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:14 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:14 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 18:32:18 -0400
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (6.2ms)
+  Rendered check_ins/new.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:18 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:18 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:18 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:18 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:18 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:18 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:18 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:18 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:18 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:18 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:18 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:18 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:18 -0400
+
+
+Started POST "/check_ins" for 127.0.0.1 at 2014-06-14 18:32:23 -0400
+Processing by CheckInsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hU3CPJuayck/NyOYsZwJLxTa1lnr21C2ATkccpIbarE=", "check_in"=>{"report_time(1i)"=>"2014", "report_time(2i)"=>"6", "report_time(3i)"=>"14", "report_time(4i)"=>"18", "report_time(5i)"=>"32", "report_type"=>"Poaching // Illegal Fishing", "lat"=>"40.72034070000001", "lng"=>"-73.9991342", "notes"=>""}, "commit"=>"Submit"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "check_ins" ("created_at", "lat", "lng", "notes", "report_time", "report_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", "2014-06-14 22:32:23.882767"], ["lat", 40.72034070000001], ["lng", -73.9991342], ["notes", ""], ["report_time", "2014-06-14 18:32:00.000000"], ["report_type", "Poaching // Illegal Fishing"], ["updated_at", "2014-06-14 22:32:23.882767"]]
+  [1m[32mSOLR Request (7.5ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/check_ins/31
+  [1m[32mSOLR Request (27.2ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+Completed 302 Found in 44ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/check_ins/31" for 127.0.0.1 at 2014-06-14 18:32:23 -0400
+Processing by CheckInsController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[35mCheckIn Load (0.1ms)[0m  SELECT  "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" = ? LIMIT 1  [["id", 31]]
+  [1m[36mCatch Load (0.1ms)[0m  [1mSELECT  "catches".* FROM "catches"  WHERE "catches"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 31]]
+  Rendered catches/_catches.html.erb (1.1ms)
+  [1m[35mVessel Load (0.1ms)[0m  SELECT  "vessels".* FROM "vessels"  WHERE "vessels"."check_in_id" = ? LIMIT 1  [["check_in_id", 31]]
+  Rendered vessels/_vessel_partial.html.erb (0.7ms)
+  [1m[36mCheckInImage Load (0.1ms)[0m  [1mSELECT  "check_in_images".* FROM "check_in_images"  WHERE "check_in_images"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 31]]
+  Rendered check_ins/show.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.3ms | Solr: 34.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:23 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:23 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:23 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:23 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:32:24 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:24 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:24 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:24 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:24 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:32:24 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:32:24 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (5.6ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (30, 31)
+  Rendered reports/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 8.0ms | ActiveRecord: 0.2ms | Solr: 5.6ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:36:01 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (3.7ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[36mCheckIn Load (0.1ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (30, 31)[0m
+  Rendered reports/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 21ms (Views: 11.1ms | ActiveRecord: 0.5ms | Solr: 3.7ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:36:01 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:36:01 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:36:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:36:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:36:01 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:36:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:36:01 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:36:01 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:36:01 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:36:01 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:36:01 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:36:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:36:01 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-14 18:36:01 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:37:45 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (3.6ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[35mCheckIn Load (0.1ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (30, 31)
+  Rendered reports/index.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 21ms (Views: 11.5ms | ActiveRecord: 0.5ms | Solr: 3.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:37:45 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:37:45 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:37:45 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:37:45 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:37:45 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:37:45 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:37:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:37:45 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:37:45 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:37:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:37:45 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:37:45 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:37:45 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-14 18:37:45 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:39:07 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (3.7ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[36mCheckIn Load (0.2ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (30, 31)[0m
+  Rendered reports/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 9.0ms | ActiveRecord: 0.2ms | Solr: 3.7ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:39:07 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:39:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:39:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:39:07 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:39:07 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:39:07 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:39:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:39:07 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:39:07 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:39:07 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:39:07 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:39:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:39:07 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:41:32 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (3.8ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (30, 31)
+  Rendered reports/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (wrong number of arguments (4 for 1..3)):
+    13: 
+    14:   <div class="form-group">
+    15:     <%= label :report_type, "Report Type" %><br>
+    16:     <%= select_tag(:report_type, options_for_select([['Poaching // Illegal Fishing', 'Poaching // Illegal Fishing'], ['Habitat Degradation', 'Habitat Degradation'], ['Marine Debris','Marine Debris'], ['Poor Water Quality','Poor Water Quality'] ]), {}, {class: "form-control"}) %>
+    17:   </div>
+    18: 
+    19: 	<%= text_field_tag :search, params[:search], :class=> "form-control" %>
+  app/views/reports/index.html.erb:16:in `block in _app_views_reports_index_html_erb___52739279193851358_70173287237080'
+  app/views/reports/index.html.erb:12:in `_app_views_reports_index_html_erb___52739279193851358_70173287237080'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.7ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:42:40 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (3.7ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[36mCheckIn Load (0.3ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (30, 31)[0m
+  Rendered reports/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 9.9ms | ActiveRecord: 0.3ms | Solr: 3.7ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:42:40 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:42:40 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:42:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:42:40 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:42:40 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:42:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:42:40 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:42:40 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:42:40 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:42:40 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:42:40 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:42:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:42:40 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:43:01 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (3.5ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[35mCheckIn Load (0.3ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (30, 31)
+  Rendered reports/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 8.5ms | ActiveRecord: 0.3ms | Solr: 3.5ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:43:01 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:43:01 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:43:01 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:43:01 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:43:01 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:43:01 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:43:01 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:43:01 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:43:01 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:43:01 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:43:01 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:43:01 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:43:01 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:43:52 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (4.3ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[36mCheckIn Load (0.7ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (30, 31)[0m
+  Rendered reports/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 8.4ms | ActiveRecord: 0.7ms | Solr: 4.3ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:43:52 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:43:52 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:43:52 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:43:52 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:43:52 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:43:52 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:43:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:43:52 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:43:52 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:43:52 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:43:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:43:52 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:43:52 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:44:18 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (4.1ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (30, 31)
+  Rendered reports/index.html.erb within layouts/application (55.7ms)
+Completed 500 Internal Server Error in 64ms
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007fa4fdae6b78>:0x007fa4ff5d2720>):
+    18: 
+    19:   <!-- ######## Submit form --> 
+    20:   <div class="actions">
+    21:     <%= f.submit "Submit", :class => "btn btn-default" %>
+    22:   </div>
+    23: 
+    24: <% end %>
+  app/views/reports/index.html.erb:21:in `block in _app_views_reports_index_html_erb___52739279193851358_70173317825240'
+  app/views/reports/index.html.erb:12:in `_app_views_reports_index_html_erb___52739279193851358_70173317825240'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.7ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:44:33 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (3.4ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[36mCheckIn Load (0.2ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (30, 31)[0m
+  Rendered reports/index.html.erb within layouts/application (11.4ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined method `submit' for #<#<Class:0x007fa4fdae6b78>:0x007fa4fdff2db0>):
+    18: 
+    19:   <!-- ######## Submit form --> 
+    20:   <div class="actions">
+    21:     <%= submit "Submit", :class => "btn btn-default" %>
+    22:   </div>
+    23: 
+    24: <% end %>
+  app/views/reports/index.html.erb:21:in `block in _app_views_reports_index_html_erb___52739279193851358_70173306357340'
+  app/views/reports/index.html.erb:12:in `_app_views_reports_index_html_erb___52739279193851358_70173306357340'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.7ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-14 18:45:07 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (3.4ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (30, 31)
+  Rendered reports/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 8.4ms | ActiveRecord: 0.2ms | Solr: 3.4ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:07 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:07 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:07 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:07 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:07 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:07 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:07 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:07 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:07 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:07 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:07 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:07 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:07 -0400
+
+
+Started GET "/reports?utf8=%E2%9C%93&report_type=Poaching+%2F%2F+Illegal+Fishing&commit=Search" for 127.0.0.1 at 2014-06-14 18:45:09 -0400
+Processing by ReportsController#index as HTML
+  Parameters: {"utf8"=>"✓", "report_type"=>"Poaching // Illegal Fishing", "commit"=>"Search"}
+  [1m[32mSOLR Request (7.1ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Poaching // Illegal Fishing"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  [1m[36mCheckIn Load (0.3ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (30, 31)[0m
+  Rendered reports/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 20ms (Views: 10.1ms | ActiveRecord: 0.3ms | Solr: 7.1ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:09 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:09 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:09 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:09 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:09 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:09 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:09 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:09 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:09 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:09 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:09 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:09 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:09 -0400
+
+
+Started GET "/reports?utf8=%E2%9C%93&report_type=Habitat+Degradation&commit=Search" for 127.0.0.1 at 2014-06-14 18:45:12 -0400
+Processing by ReportsController#index as HTML
+  Parameters: {"utf8"=>"✓", "report_type"=>"Habitat Degradation", "commit"=>"Search"}
+  [1m[32mSOLR Request (10.1ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Habitat Degradation"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  Rendered reports/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 10.4ms | ActiveRecord: 0.0ms | Solr: 10.1ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:12 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:12 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:12 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:12 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:12 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:12 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:12 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:12 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:12 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:12 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:12 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:12 -0400
+
+
+Started GET "/reports?utf8=%E2%9C%93&report_type=Marine+Debris&commit=Search" for 127.0.0.1 at 2014-06-14 18:45:15 -0400
+Processing by ReportsController#index as HTML
+  Parameters: {"utf8"=>"✓", "report_type"=>"Marine Debris", "commit"=>"Search"}
+  [1m[32mSOLR Request (9.1ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Marine Debris"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  Rendered reports/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 24ms (Views: 12.7ms | ActiveRecord: 0.0ms | Solr: 9.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:15 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:15 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:15 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:15 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:15 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:15 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:15 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:15 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:15 -0400
+
+
+Started GET "/reports?utf8=%E2%9C%93&report_type=Poaching+%2F%2F+Illegal+Fishing&commit=Search" for 127.0.0.1 at 2014-06-14 18:45:19 -0400
+Processing by ReportsController#index as HTML
+  Parameters: {"utf8"=>"✓", "report_type"=>"Poaching // Illegal Fishing", "commit"=>"Search"}
+  [1m[32mSOLR Request (6.3ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Poaching // Illegal Fishing"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (30, 31)
+  Rendered reports/index.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 10.5ms | ActiveRecord: 0.2ms | Solr: 6.3ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:19 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:19 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:19 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:19 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:19 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:19 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:45:19 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:19 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:19 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:19 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:19 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:19 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:45:19 -0400
+
+
+Started GET "/reports?utf8=%E2%9C%93&report_type=Poaching+%2F%2F+Illegal+Fishing&commit=Search" for 127.0.0.1 at 2014-06-14 18:46:03 -0400
+Processing by ReportsController#index as HTML
+  Parameters: {"utf8"=>"✓", "report_type"=>"Poaching // Illegal Fishing", "commit"=>"Search"}
+  [1m[32mSOLR Request (54.4ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Poaching // Illegal Fishing"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  [1m[36mCheckIn Load (0.2ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (30, 31)[0m
+  Rendered reports/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 66ms (Views: 8.4ms | ActiveRecord: 0.2ms | Solr: 54.4ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:46:03 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:46:03 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:46:03 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:46:03 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:46:03 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:46:03 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:46:03 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:46:03 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:46:03 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:46:03 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:46:03 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:46:03 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:46:03 -0400
+
+
+Started GET "/reports?utf8=%E2%9C%93&report_type=Poaching+%2F%2F+Illegal+Fishing&commit=Search" for 127.0.0.1 at 2014-06-14 18:46:17 -0400
+Processing by ReportsController#index as HTML
+  Parameters: {"utf8"=>"✓", "report_type"=>"Poaching // Illegal Fishing", "commit"=>"Search"}
+  [1m[32mSOLR Request (4.8ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Poaching // Illegal Fishing"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (30, 31)
+  Rendered reports/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 8.3ms | ActiveRecord: 0.2ms | Solr: 4.8ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:46:17 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:46:17 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:46:17 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:46:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:46:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:46:17 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:46:17 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:46:17 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:46:17 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:46:17 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:46:17 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:46:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:46:17 -0400
+
+
+Started GET "/reports?utf8=%E2%9C%93&report_type=Poaching+%2F%2F+Illegal+Fishing&commit=Search" for 127.0.0.1 at 2014-06-14 18:47:48 -0400
+Processing by ReportsController#index as HTML
+  Parameters: {"utf8"=>"✓", "report_type"=>"Poaching // Illegal Fishing", "commit"=>"Search"}
+  [1m[32mSOLR Request (4.7ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Poaching // Illegal Fishing"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  [1m[36mCheckIn Load (0.2ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (30, 31)[0m
+  Rendered reports/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 8.5ms | ActiveRecord: 0.2ms | Solr: 4.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:47:48 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:47:48 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:47:48 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:47:48 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:47:48 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:47:48 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:47:48 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:47:48 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:47:48 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:47:48 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:47:48 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:47:48 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:47:48 -0400
+
+
+Started GET "/reports?utf8=%E2%9C%93&report_type=Poaching+%2F%2F+Illegal+Fishing&commit=Search" for 127.0.0.1 at 2014-06-14 18:47:57 -0400
+Processing by ReportsController#index as HTML
+  Parameters: {"utf8"=>"✓", "report_type"=>"Poaching // Illegal Fishing", "commit"=>"Search"}
+  [1m[32mSOLR Request (4.3ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Poaching // Illegal Fishing"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (30, 31)
+  Rendered reports/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 8.5ms | ActiveRecord: 0.2ms | Solr: 4.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:47:57 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:47:57 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:47:57 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:47:57 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:47:57 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:47:57 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:47:57 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:47:58 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:47:58 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:47:58 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:47:58 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:47:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:47:58 -0400
+
+
+Started GET "/reports?utf8=%E2%9C%93&report_type=Poaching+%2F%2F+Illegal+Fishing&commit=Search" for 127.0.0.1 at 2014-06-14 18:48:12 -0400
+Processing by ReportsController#index as HTML
+  Parameters: {"utf8"=>"✓", "report_type"=>"Poaching // Illegal Fishing", "commit"=>"Search"}
+  [1m[32mSOLR Request (5.1ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, q: [1m[1m"Poaching // Illegal Fishing"[0m, fl: [1m[1m"* score"[0m, qf: [1m[1m"report_type_text"[0m, defType: [1m[1m"edismax"[0m, start: [1m[1m0[0m, rows: [1m[1m30[0m} ]
+  [1m[36mCheckIn Load (0.3ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (30, 31)[0m
+  Rendered reports/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 67ms (Views: 59.3ms | ActiveRecord: 0.3ms | Solr: 5.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 18:48:12 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 18:48:12 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 18:48:12 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:48:12 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 18:48:12 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 18:48:12 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 18:48:12 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 18:48:12 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 18:48:12 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 18:48:12 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 18:48:12 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 18:48:12 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 18:48:12 -0400
