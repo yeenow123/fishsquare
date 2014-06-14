@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140614060808) do
+ActiveRecord::Schema.define(version: 20140614170644) do
 
   create_table "catches", force: true do |t|
     t.integer  "check_in_id"
@@ -40,6 +40,7 @@ ActiveRecord::Schema.define(version: 20140614060808) do
     t.text     "notes"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.datetime "report_time"
   end
 
   create_table "vessels", force: true do |t|

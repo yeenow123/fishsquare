@@ -16,7 +16,13 @@
   <tbody>
     <% @check_ins.each do |check_in| %>
       <tr>
-        <td><%= check_in.created_at.strftime("%Y-%m-%d %H:%M") %></td>
+        <td><%= 
+          if check_in.report_time
+            check_in.report_time_formatted
+          else
+            "Unknown"
+          end
+        %></td>
         <td><%= check_in.lat %></td>
         <td><%= check_in.lng %></td>
         <td><%= check_in.report_type %></td>
