@@ -16,7 +16,7 @@
  *= require jumbotron-narrow.min
  */
 
-/*.btn-file {
+.btn-file {
     position: relative;
     overflow: hidden;
 }
@@ -34,4 +34,4 @@
     background: white;
     cursor: inherit;
     display: block;
-}*/
+}

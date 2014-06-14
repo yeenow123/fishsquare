@@ -21,4 +21,8 @@ class CheckIn < ActiveRecord::Base
 	def report_time_formatted
 		report_time.strftime("%Y-%m-%d %H:%M")
 	end
+
+	def has_catch?
+		self.report_type == 'Poaching // Illegal Fishing'
+	end
 end

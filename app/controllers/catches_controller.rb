@@ -25,10 +25,11 @@ class CatchesController < ApplicationController
   # POST /catches.json
   def create
     @catch = Catch.new(catch_params)
+    check_in_id = @catch.check_in_id.to_s
 
     respond_to do |format|
       if @catch.save
-        format.html { redirect_to @catch, notice: 'Catch was successfully created.' }
+        format.html { redirect_to "/check_ins/" + check_in_id, notice: 'Catch was successfully created.' }
         format.json { render :show, status: :created, location: @catch }
       else
         format.html { render :new }
