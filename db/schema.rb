@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140614182546) do
+ActiveRecord::Schema.define(version: 20140614190101) do
 
   create_table "catches", force: true do |t|
     t.integer  "check_in_id"
@@ -37,7 +37,6 @@ ActiveRecord::Schema.define(version: 20140614182546) do
     t.float    "lat"
     t.float    "lng"
     t.string   "report_type"
-    t.string   "fishing_type"
     t.text     "notes"
     t.datetime "created_at"
     t.datetime "updated_at"

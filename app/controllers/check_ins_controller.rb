@@ -69,6 +69,6 @@ class CheckInsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def check_in_params
-      params.require(:check_in).permit(:lat, :lng, :report_type, :fishing_type, :notes, :report_time)
+      params.require(:check_in).permit(:lat, :lng, :report_type, :notes, :report_time)
     end
 end

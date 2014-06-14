@@ -2,15 +2,14 @@
 #
 # Table name: check_ins
 #
-#  id           :integer          not null, primary key
-#  lat          :float
-#  lng          :float
-#  report_type  :string(255)
-#  fishing_type :string(255)
-#  notes        :text
-#  created_at   :datetime
-#  updated_at   :datetime
-#  report_time  :datetime
+#  id          :integer          not null, primary key
+#  lat         :float
+#  lng         :float
+#  report_type :string(255)
+#  notes       :text
+#  created_at  :datetime
+#  updated_at  :datetime
+#  report_time :datetime
 #
 
 require 'rails_helper'
