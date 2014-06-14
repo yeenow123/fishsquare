@@ -3,3 +3,58 @@
 	<h1>Reports#index</h1>
 	<p>Find me in app/views/reports/index.html.erb</p>
 </div>
+
+  <!-- ######## Map element --> 
+  <div class="form-group">
+    <div id="map-canvas" style="width: 100%; height: 120px; background: #eee; border-radius: 4px;"></div>
+  </div>
+
+<script>
+var map;
+var marker;
+var coords;
+function initialize() {
+
+  var mapOptions = {
+    zoom: 2,
+    center: new google.maps.LatLng(30, 31)
+  };
+  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+ var check_ins = [];
+
+  $.getJSON('/reports.json', function(data) {
+    $.each(data, function(i, val) {
+
+      check_ins.push(val);
+    })
+
+    for (var j=0; j < check_ins.length; j++) {
+      var coords = new google.maps.LatLng(check_ins[j].lat, check_ins[j].lng);
+      var marker = new google.maps.Marker({
+        position: coords,
+        map: map,
+        title: check_ins[j].report_type
+      }); 
+
+    }
+
+  });
+
+}
+
+
+
+
+var ready;
+ready = function() {
+// document.getElementById("check_in_nav").setAttribute("class", "active");
+initialize();
+};
+
+//workaround for turbolinks
+$(document).ready(ready);
+$(document).on('page:load', ready);
+//google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
