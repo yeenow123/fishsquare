@@ -10,6 +10,7 @@
 #  notes        :text
 #  created_at   :datetime
 #  updated_at   :datetime
+#  report_time  :datetime
 #
 
 class CheckIn < ActiveRecord::Base
@@ -18,4 +19,7 @@ class CheckIn < ActiveRecord::Base
 	has_one :vessel
 	has_one :check_in_image
 
+	def report_time_formatted
+		report_time.strftime("%Y-%m-%d %H:%M")
+	end
 end

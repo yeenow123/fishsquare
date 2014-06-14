@@ -12,6 +12,12 @@
   <% end %>
 
   <!-- ######## Reason for checkin -->
+
+  <div class="form-group">
+    <%= f.label :report_time, "Time of Unsanctioned Activity" %><br>
+    <%= f.datetime_select :report_time %>
+  </div>
+
   <div class="form-group">
     <%= f.label :report_type, "Reason" %><br>
     <%= f.select(:report_type, options_for_select([['Poaching // Illegal Fishing', 'Poaching // Illegal Fishing'], ['Habitat Degradation', 'Habitat Degradation'], ['Marine Debris','Marine Debris'], ['Poor Water Quality','Poor Water Quality'] ])) %>

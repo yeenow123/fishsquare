@@ -41,6 +41,7 @@ ActiveRecord::Schema.define(version: 20140614182546) do
     t.text     "notes"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.datetime "report_time"
   end
 
   create_table "vessels", force: true do |t|

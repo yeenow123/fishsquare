@@ -10,6 +10,7 @@
 #  notes        :text
 #  created_at   :datetime
 #  updated_at   :datetime
+#  report_time  :datetime
 #
 
 require 'rails_helper'
