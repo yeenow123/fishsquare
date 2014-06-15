@@ -65,7 +65,11 @@
 
 <% end %>
 
-<%= debug @check_ins %>
+<% if @check_ins and @check_ins.length > 0 %>
+<% @check_ins.each do |c|%>
+  <%= render :partial => 'check_ins/check_in_partial', :locals => {:c => c  } %>
+<% end %>
+<% end %>
 
 </div>
 

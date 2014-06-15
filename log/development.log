@@ -35694,3 +35694,829 @@ Processing by ReportsController#index as JSON
   [1m[32mSOLR Request (5.2ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn", "report_time_d:{2011-06-15T04:00:00Z TO *}", "report_time_d:{* TO 2014-06-18T04:00:00Z}"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
   [1m[35mCheckIn Load (0.3ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (33, 34, 36, 37)
 Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 0.3ms | Solr: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-15 12:09:56 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (54.4ms)
+  Rendered check_ins/new.html.erb within layouts/application (57.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 145ms (Views: 132.4ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-15 12:09:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-15 12:09:56 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-15 12:09:56 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-15 12:09:56 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-15 12:09:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-15 12:09:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-15 12:09:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-15 12:09:56 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-15 12:09:56 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-15 12:09:57 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-15 12:09:57 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-15 12:09:57 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-15 12:09:57 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-15 12:09:57 -0400
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-15 12:09:58 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (7.8ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (33, 34, 36, 37)
+  Rendered reports/index.html.erb within layouts/application (16.0ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (Missing partial check_ins/_check_in_partial with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/az/Desktop/fishsquare/app/views"
+  * "/Users/az/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.0.0.rc/app/views"
+):
+    67: 
+    68: <% if @check_ins and @check_ins.length > 0 %>
+    69: <% @check_ins.each do |c|%>
+    70:   <%= render :partial => 'check_ins/check_in_partial' %>
+    71: <% end %>
+    72: <% end %>
+    73: 
+  app/views/reports/index.html.erb:70:in `block in _app_views_reports_index_html_erb__2324492390856234193_70281529278140'
+  app/views/reports/index.html.erb:69:in `each'
+  app/views/reports/index.html.erb:69:in `_app_views_reports_index_html_erb__2324492390856234193_70281529278140'
+  app/controllers/reports_controller.rb:41:in `index'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.2ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-15 12:09:58 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (3.9ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[36mCheckIn Load (0.2ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (33, 34, 36, 37)[0m
+  Rendered reports/index.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (Missing partial check_ins/_check_in_partial with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/az/Desktop/fishsquare/app/views"
+  * "/Users/az/.rvm/gems/ruby-2.0.0-p247/gems/devise-3.0.0.rc/app/views"
+):
+    67: 
+    68: <% if @check_ins and @check_ins.length > 0 %>
+    69: <% @check_ins.each do |c|%>
+    70:   <%= render :partial => 'check_ins/check_in_partial' %>
+    71: <% end %>
+    72: <% end %>
+    73: 
+  app/views/reports/index.html.erb:70:in `block in _app_views_reports_index_html_erb__2324492390856234193_70281529278140'
+  app/views/reports/index.html.erb:69:in `each'
+  app/views/reports/index.html.erb:69:in `_app_views_reports_index_html_erb__2324492390856234193_70281529278140'
+  app/controllers/reports_controller.rb:41:in `index'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (11.6ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-15 12:10:31 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (4.4ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (33, 34, 36, 37)
+  Rendered check_ins/_check_in_partial.html.erb (0.4ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.0ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.0ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.0ms)
+  Rendered reports/index.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 11.9ms | ActiveRecord: 0.2ms | Solr: 4.4ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-15 12:10:31 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-15 12:10:31 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-15 12:10:31 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-15 12:10:31 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-15 12:10:31 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-15 12:10:31 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-15 12:10:31 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-15 12:10:31 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-15 12:10:31 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-15 12:10:31 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-15 12:10:31 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-15 12:10:31 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-15 12:10:31 -0400
+
+
+Started GET "/reports&wt=json" for 127.0.0.1 at 2014-06-15 12:10:31 -0400
+
+ActionController::RoutingError (No route matches [GET] "/reports&wt=json"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (5.8ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-15 12:11:08 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (3.9ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[36mCheckIn Load (0.2ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (33, 34, 36, 37)[0m
+  Rendered check_ins/_check_in_partial.html.erb (11.4ms)
+  Rendered reports/index.html.erb within layouts/application (19.2ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (undefined local variable or method `c' for #<#<Class:0x007fd7632bf718>:0x007fd766a97e60>):
+    1: <div class="form-group" style="border-bottom: 1px solid #e5e5e5;">
+    2:   <h4><%= c.report_type %></h4>
+    3: 
+    4: 
+    5: </div>
+  app/views/check_ins/_check_in_partial.html.erb:2:in `_app_views_check_ins__check_in_partial_html_erb___2438537449821238090_70281529599860'
+  app/views/reports/index.html.erb:70:in `block in _app_views_reports_index_html_erb__2324492390856234193_70281529278140'
+  app/views/reports/index.html.erb:69:in `each'
+  app/views/reports/index.html.erb:69:in `_app_views_reports_index_html_erb__2324492390856234193_70281529278140'
+  app/controllers/reports_controller.rb:41:in `index'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.6ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-15 12:12:30 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (4.4ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (33, 34, 36, 37)
+  Rendered check_ins/_check_in_partial.html.erb (0.5ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.1ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.0ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.0ms)
+  Rendered reports/index.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 21ms (Views: 13.8ms | ActiveRecord: 0.2ms | Solr: 4.4ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-15 12:12:30 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-15 12:12:30 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-15 12:12:30 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-15 12:12:30 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-15 12:12:30 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-15 12:12:30 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-15 12:12:30 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-15 12:12:30 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-15 12:12:30 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-15 12:12:30 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-15 12:12:30 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-15 12:12:30 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-15 12:12:30 -0400
+
+
+Started GET "/reports&wt=json" for 127.0.0.1 at 2014-06-15 12:12:30 -0400
+
+ActionController::RoutingError (No route matches [GET] "/reports&wt=json"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (5.6ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-15 12:13:40 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (15.0ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[36mCheckIn Load (0.2ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (33, 34, 36, 37)[0m
+  Rendered check_ins/_check_in_partial.html.erb (0.4ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.1ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.1ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.1ms)
+  Rendered reports/index.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 30ms (Views: 12.3ms | ActiveRecord: 0.2ms | Solr: 15.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-15 12:13:40 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-15 12:13:40 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-15 12:13:40 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-15 12:13:40 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-15 12:13:40 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-15 12:13:40 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-15 12:13:40 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-15 12:13:40 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-15 12:13:40 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-15 12:13:40 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-15 12:13:40 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-15 12:13:40 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-15 12:13:40 -0400
+
+
+Started GET "/reports&wt=json" for 127.0.0.1 at 2014-06-15 12:13:40 -0400
+
+ActionController::RoutingError (No route matches [GET] "/reports&wt=json"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.0ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (6.9ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-15 12:13:54 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (4.4ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (33, 34, 36, 37)
+  Rendered check_ins/_check_in_partial.html.erb (0.4ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.0ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.0ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.0ms)
+  Rendered reports/index.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 11.9ms | ActiveRecord: 0.2ms | Solr: 4.4ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-15 12:13:54 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-15 12:13:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-15 12:13:54 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-15 12:13:54 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-15 12:13:54 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-15 12:13:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-15 12:13:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-15 12:13:54 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-15 12:13:54 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-15 12:13:54 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-15 12:13:54 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-15 12:13:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-15 12:13:54 -0400
+
+
+Started GET "/reports&wt=json" for 127.0.0.1 at 2014-06-15 12:13:54 -0400
+
+ActionController::RoutingError (No route matches [GET] "/reports&wt=json"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.2ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (10.8ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-15 12:14:37 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (5.2ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[36mCheckIn Load (0.3ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (33, 34, 36, 37)[0m
+  Rendered check_ins/_check_in_partial.html.erb (0.4ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.1ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.0ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.0ms)
+  Rendered reports/index.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 22ms (Views: 13.8ms | ActiveRecord: 0.3ms | Solr: 5.2ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-15 12:14:37 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-15 12:14:37 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-15 12:14:37 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-15 12:14:37 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-15 12:14:37 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-15 12:14:37 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-15 12:14:37 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-15 12:14:37 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-15 12:14:37 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-15 12:14:37 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-15 12:14:37 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-15 12:14:37 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-15 12:14:37 -0400
+
+
+Started GET "/reports&wt=json" for 127.0.0.1 at 2014-06-15 12:14:37 -0400
+
+ActionController::RoutingError (No route matches [GET] "/reports&wt=json"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.3ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (7.0ms)
+
+
+Started GET "/check_ins/33" for 127.0.0.1 at 2014-06-15 12:14:40 -0400
+Processing by CheckInsController#show as HTML
+  Parameters: {"id"=>"33"}
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT  "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" = ? LIMIT 1  [["id", 33]]
+  [1m[36mCatch Load (0.4ms)[0m  [1mSELECT  "catches".* FROM "catches"  WHERE "catches"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 33]]
+  Rendered catches/_catches.html.erb (22.3ms)
+  [1m[35mVessel Load (0.5ms)[0m  SELECT  "vessels".* FROM "vessels"  WHERE "vessels"."check_in_id" = ? LIMIT 1  [["check_in_id", 33]]
+  Rendered vessels/_vessel_partial.html.erb (4.9ms)
+  [1m[36mCheckInImage Load (0.5ms)[0m  [1mSELECT  "check_in_images".* FROM "check_in_images"  WHERE "check_in_images"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 33]]
+  Rendered check_ins/show.html.erb within layouts/application (37.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 46ms (Views: 42.3ms | ActiveRecord: 2.0ms | Solr: 0.0ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-15 12:15:51 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (13.6ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[35mCheckIn Load (0.3ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (33, 34, 36, 37)
+  Rendered check_ins/_check_in_partial.html.erb (1.1ms)
+  Rendered reports/index.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (undefined method `report_time' for nil:NilClass):
+    1: <div class="form-group" style="border-bottom: 1px solid #e5e5e5;">
+    2:   <h5><a href='/check_ins/<%=c.id%>'><%= c.report_type %></a></h5>
+    3:   <div class="form-group">
+    4:   	<span style="font-size: 12px; font-weight: normal; padding-left: 15px;"><%= @check_in.report_time.strftime("%m/%d/%Y at %I:%M%p") %></span>
+    5:   </div>
+    6: </div>
+  app/views/check_ins/_check_in_partial.html.erb:4:in `_app_views_check_ins__check_in_partial_html_erb___2438537449821238090_70281558724340'
+  app/views/reports/index.html.erb:70:in `block in _app_views_reports_index_html_erb__2324492390856234193_70281531100800'
+  app/views/reports/index.html.erb:69:in `each'
+  app/views/reports/index.html.erb:69:in `_app_views_reports_index_html_erb__2324492390856234193_70281531100800'
+  app/controllers/reports_controller.rb:41:in `index'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (10.9ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-15 12:16:00 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (4.2ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[36mCheckIn Load (0.2ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (33, 34, 36, 37)[0m
+  Rendered check_ins/_check_in_partial.html.erb (1.0ms)
+  Rendered reports/index.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `report_time' for nil:NilClass):
+    1: <div class="form-group" style="border-bottom: 1px solid #e5e5e5;">
+    2:   <h5><a href='/check_ins/<%=c.id%>'><%= c.report_type %></a></h5>
+    3:   <div class="form-group">
+    4:   	<span style="font-size: 12px; font-weight: normal; padding-left: 15px;"><%= @c.report_time.strftime("%m/%d/%Y at %I:%M%p") %></span>
+    5:   </div>
+    6: </div>
+  app/views/check_ins/_check_in_partial.html.erb:4:in `_app_views_check_ins__check_in_partial_html_erb___2438537449821238090_70281531497200'
+  app/views/reports/index.html.erb:70:in `block in _app_views_reports_index_html_erb__2324492390856234193_70281531100800'
+  app/views/reports/index.html.erb:69:in `each'
+  app/views/reports/index.html.erb:69:in `_app_views_reports_index_html_erb__2324492390856234193_70281531100800'
+  app/controllers/reports_controller.rb:41:in `index'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.9ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-15 12:16:15 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (41.7ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (33, 34, 36, 37)
+  Rendered check_ins/_check_in_partial.html.erb (0.6ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.2ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.1ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.1ms)
+  Rendered reports/index.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 58ms (Views: 13.4ms | ActiveRecord: 0.2ms | Solr: 41.7ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-15 12:16:15 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-15 12:16:15 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-15 12:16:15 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-15 12:16:15 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-15 12:16:15 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-15 12:16:15 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-15 12:16:15 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-15 12:16:15 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-15 12:16:15 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-15 12:16:15 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-15 12:16:15 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-15 12:16:15 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-15 12:16:15 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-15 12:16:15 -0400
+
+
+Started GET "/reports&wt=json" for 127.0.0.1 at 2014-06-15 12:16:15 -0400
+
+ActionController::RoutingError (No route matches [GET] "/reports&wt=json"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (4.5ms)
+
+
+Started GET "/reports" for 127.0.0.1 at 2014-06-15 12:16:24 -0400
+Processing by ReportsController#index as HTML
+  [1m[32mSOLR Request (32.2ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
+  [1m[36mCheckIn Load (0.2ms)[0m  [1mSELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (33, 34, 36, 37)[0m
+  Rendered check_ins/_check_in_partial.html.erb (0.2ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.1ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.1ms)
+  Rendered check_ins/_check_in_partial.html.erb (0.1ms)
+  Rendered reports/index.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 46ms (Views: 11.5ms | ActiveRecord: 0.2ms | Solr: 32.2ms)
+
+
+Started GET "/reports&wt=json" for 127.0.0.1 at 2014-06-15 12:16:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/reports&wt=json"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (5.8ms)
+
+
+Started GET "/check_ins/36" for 127.0.0.1 at 2014-06-15 12:16:30 -0400
+Processing by CheckInsController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[35mCheckIn Load (0.2ms)[0m  SELECT  "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" = ? LIMIT 1  [["id", 36]]
+  [1m[36mCheckInImage Load (0.1ms)[0m  [1mSELECT  "check_in_images".* FROM "check_in_images"  WHERE "check_in_images"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 36]]
+  Rendered check_ins/show.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.3ms | Solr: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-15 12:16:32 -0400
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (3.8ms)
+  Rendered check_ins/new.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-15 12:16:32 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-15 12:16:32 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-15 12:16:32 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-15 12:16:32 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-15 12:16:32 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-15 12:16:32 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-15 12:16:32 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-15 12:16:32 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-15 12:16:32 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-15 12:16:32 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-15 12:16:32 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-15 12:16:32 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-15 12:16:32 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-15 12:16:32 -0400
