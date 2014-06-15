@@ -37,8 +37,9 @@
   <%= render :partial => 'catches/catches' %>
 <% end %>
 
-<%= render :partial => '/vessels/vessel_partial' %>
-
+<% if @check_in.report_type == "Poaching // Illegal Fishing" %>
+  <%= render :partial => '/vessels/vessel_partial' %>
+<% end %>
 
 <% unless @check_in.check_in_image %>
   <div class="form-group">
