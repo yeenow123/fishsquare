@@ -24192,3 +24192,369 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 20:43:49
 
 
 Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-14 20:43:49 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 21:05:52 -0400
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (5.1ms)
+  Rendered check_ins/new.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 21:05:52 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 21:05:52 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 21:05:52 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 21:05:52 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 21:05:52 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 21:05:52 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 21:05:52 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 21:05:52 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 21:05:52 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 21:05:52 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 21:05:52 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 21:05:52 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 21:05:52 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-14 21:05:52 -0400
+
+
+Started POST "/check_ins" for 127.0.0.1 at 2014-06-14 21:05:54 -0400
+Processing by CheckInsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hU3CPJuayck/NyOYsZwJLxTa1lnr21C2ATkccpIbarE=", "check_in"=>{"report_time(1i)"=>"2014", "report_time(2i)"=>"6", "report_time(3i)"=>"14", "report_time(4i)"=>"21", "report_time(5i)"=>"05", "report_type"=>"Poaching // Illegal Fishing", "lat"=>"30", "lng"=>"31", "notes"=>""}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "check_ins" ("created_at", "lat", "lng", "notes", "report_time", "report_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-06-15 01:05:54.542721"], ["lat", 30.0], ["lng", 31.0], ["notes", ""], ["report_time", "2014-06-14 21:05:00.000000"], ["report_type", "Poaching // Illegal Fishing"], ["updated_at", "2014-06-15 01:05:54.542721"]]
+  [1m[32mSOLR Request (6.8ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[35m (1.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/check_ins/33
+  [1m[32mSOLR Request (34.3ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+Completed 302 Found in 54ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/check_ins/33" for 127.0.0.1 at 2014-06-14 21:05:54 -0400
+Processing by CheckInsController#show as HTML
+  Parameters: {"id"=>"33"}
+  [1m[36mCheckIn Load (0.2ms)[0m  [1mSELECT  "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" = ? LIMIT 1[0m  [["id", 33]]
+  [1m[35mCatch Load (0.1ms)[0m  SELECT  "catches".* FROM "catches"  WHERE "catches"."check_in_id" = ? LIMIT 1  [["check_in_id", 33]]
+  Rendered catches/_catches.html.erb (12.6ms)
+  [1m[36mVessel Load (0.1ms)[0m  [1mSELECT  "vessels".* FROM "vessels"  WHERE "vessels"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 33]]
+  Rendered vessels/_vessel_partial.html.erb (3.8ms)
+  [1m[35mCheckInImage Load (0.1ms)[0m  SELECT  "check_in_images".* FROM "check_in_images"  WHERE "check_in_images"."check_in_id" = ? LIMIT 1  [["check_in_id", 33]]
+  Rendered check_ins/show.html.erb within layouts/application (24.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 32ms (Views: 29.5ms | ActiveRecord: 0.9ms | Solr: 41.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 21:05:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 21:05:54 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 21:05:54 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 21:05:54 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 21:05:54 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 21:05:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 21:05:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 21:05:54 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 21:05:54 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 21:05:54 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 21:05:54 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 21:05:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 21:05:54 -0400
+
+
+Started GET "/check_in/check_in_images/new/33" for 127.0.0.1 at 2014-06-14 21:05:56 -0400
+
+ActionController::RoutingError (No route matches [GET] "/check_in/check_in_images/new/33"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/az/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.3ms)
+  Rendered /Users/az/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.0ms)
+
+
+Started GET "/check_ins/33" for 127.0.0.1 at 2014-06-14 21:07:36 -0400
+Processing by CheckInsController#show as HTML
+  Parameters: {"id"=>"33"}
+  [1m[36mCheckIn Load (0.1ms)[0m  [1mSELECT  "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" = ? LIMIT 1[0m  [["id", 33]]
+  [1m[35mCatch Load (0.1ms)[0m  SELECT  "catches".* FROM "catches"  WHERE "catches"."check_in_id" = ? LIMIT 1  [["check_in_id", 33]]
+  Rendered catches/_catches.html.erb (1.4ms)
+  [1m[36mVessel Load (0.1ms)[0m  [1mSELECT  "vessels".* FROM "vessels"  WHERE "vessels"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 33]]
+  Rendered vessels/_vessel_partial.html.erb (0.6ms)
+  [1m[35mCheckInImage Load (0.1ms)[0m  SELECT  "check_in_images".* FROM "check_in_images"  WHERE "check_in_images"."check_in_id" = ? LIMIT 1  [["check_in_id", 33]]
+  Rendered check_ins/show.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 0.3ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:36 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:36 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:36 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:36 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:36 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:36 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:36 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:36 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:36 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:36 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:36 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:36 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:36 -0400
+
+
+Started GET "/check_in/catch/new/33" for 127.0.0.1 at 2014-06-14 21:07:37 -0400
+Processing by CatchesController#new as HTML
+  Parameters: {"check_in_id"=>"33"}
+  Rendered catches/_form.html.erb (7.7ms)
+  Rendered catches/new.html.erb within layouts/application (9.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:38 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:38 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:38 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:38 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:38 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:38 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:38 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:38 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:38 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:38 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:38 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:38 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:38 -0400
+
+
+Started POST "/catches" for 127.0.0.1 at 2014-06-14 21:07:39 -0400
+Processing by CatchesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hU3CPJuayck/NyOYsZwJLxTa1lnr21C2ATkccpIbarE=", "catch"=>{"check_in_id"=>"33", "fishing_style"=>"Trawling", "species"=>"", "notes"=>""}, "commit"=>"Submit"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  INSERT INTO "catches" ("check_in_id", "created_at", "fishing_style", "notes", "species", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["check_in_id", 33], ["created_at", "2014-06-15 01:07:39.239986"], ["fishing_style", "Trawling"], ["notes", ""], ["species", ""], ["updated_at", "2014-06-15 01:07:39.239986"]]
+  [1m[36m (8.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/check_ins/33
+Completed 302 Found in 15ms (ActiveRecord: 10.4ms)
+
+
+Started GET "/check_ins/33" for 127.0.0.1 at 2014-06-14 21:07:39 -0400
+Processing by CheckInsController#show as HTML
+  Parameters: {"id"=>"33"}
+  [1m[35mCheckIn Load (0.1ms)[0m  SELECT  "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" = ? LIMIT 1  [["id", 33]]
+  [1m[36mCatch Load (0.1ms)[0m  [1mSELECT  "catches".* FROM "catches"  WHERE "catches"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 33]]
+  Rendered catches/_catches.html.erb (5.1ms)
+  [1m[35mVessel Load (0.1ms)[0m  SELECT  "vessels".* FROM "vessels"  WHERE "vessels"."check_in_id" = ? LIMIT 1  [["check_in_id", 33]]
+  Rendered vessels/_vessel_partial.html.erb (0.8ms)
+  [1m[36mCheckInImage Load (0.1ms)[0m  [1mSELECT  "check_in_images".* FROM "check_in_images"  WHERE "check_in_images"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 33]]
+  Rendered check_ins/show.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.3ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:39 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:39 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:39 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:39 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:39 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:39 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:39 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:39 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:39 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:39 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:39 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:39 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:39 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 21:07:47 -0400
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (5.0ms)
+  Rendered check_ins/new.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:47 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:47 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:47 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:47 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 21:07:47 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:47 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:47 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:47 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:47 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:47 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:47 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:47 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 21:07:47 -0400
