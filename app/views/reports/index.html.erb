@@ -45,7 +45,7 @@
     <div class="form-inline">
       <div class="form-group">
         <%= label :date_start, "Start Date" %><br>
-        <%= date_select("date_start",nil, class: "form-control") %>
+        <%= date_select("date_start",nil, class: "form-control", default: 3.years.ago) %>
       </div>
       <div class="form-group">
         <%= label :date_end, "" %><br>
@@ -53,7 +53,7 @@
       </div>
       <div class="form-group">
         <%= label :date_end, "End Date" %><br>
-        <%= date_select("date_end",nil, class: "form-control") %>
+        <%= date_select("date_end",nil, class: "form-control", default: 3.days.from_now) %>
       </div>
     </div>
   </div>
@@ -64,8 +64,6 @@
   </div>
 
 <% end %>
-<%= debug @check_ins %>
-<%= debug params %>
 
 </div>
 
