@@ -9,9 +9,10 @@
   <h4>Catch Description</h4>
   <div class="form-group">
 
-    <strong>Species:</strong>
-    <%= @check_in.catch.species %><br>
-
+    <% if @check_in.catch.species and @check_in.catch.species.length > 0 %>
+      <strong>Species:</strong>
+      <%= @check_in.catch.species %><br>
+    <% end %>
     <strong>Fishing Style:</strong>
     <%= @check_in.catch.fishing_style %><br>
 
