@@ -35173,3 +35173,314 @@ Processing by ReportsController#index as JSON
   [1m[32mSOLR Request (4.7ms)[0m  [ path=[1m[1mselect[0m parameters={fq: [1m[1m["type:CheckIn", "report_time_d:{2011-06-15T04:00:00Z TO *}", "report_time_d:{* TO 2014-06-18T04:00:00Z}"][0m, start: [1m[1m0[0m, rows: [1m[1m30[0m, q: [1m[1m"*:*"[0m} ]
   [1m[35mCheckIn Load (0.3ms)[0m  SELECT "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" IN (33, 34, 36)
 Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 0.3ms | Solr: 4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 22:36:54 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (56.2ms)
+  Rendered check_ins/new.html.erb within layouts/application (59.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 165ms (Views: 147.0ms | ActiveRecord: 0.4ms | Solr: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 22:36:54 -0400
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (4.2ms)
+  Rendered check_ins/new.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 22:36:54 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 22:36:54 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 22:36:54 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 22:36:54 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 22:36:54 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:54 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:54 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:54 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:54 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:54 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:54 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:54 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:54 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-14 22:36:54 -0400
+
+
+Started POST "/check_ins" for 127.0.0.1 at 2014-06-14 22:36:56 -0400
+Processing by CheckInsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"98z9Ulk3k5tcE/SAFk2kfCb+8L8qW3EctBeR4Nc5WOQ=", "check_in"=>{"report_time(1i)"=>"2014", "report_time(2i)"=>"6", "report_time(3i)"=>"14", "report_time(4i)"=>"22", "report_time(5i)"=>"36", "report_type"=>"Poaching // Illegal Fishing", "lat"=>"40.72031940000001", "lng"=>"-73.9991723", "notes"=>""}, "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "check_ins" ("created_at", "lat", "lng", "notes", "report_time", "report_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-06-15 02:36:56.352882"], ["lat", 40.72031940000001], ["lng", -73.9991723], ["notes", ""], ["report_time", "2014-06-14 22:36:00.000000"], ["report_type", "Poaching // Illegal Fishing"], ["updated_at", "2014-06-15 02:36:56.352882"]]
+  [1m[32mSOLR Request (9.1ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[35m (1.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/check_ins/37
+  [1m[32mSOLR Request (20.9ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+Completed 302 Found in 49ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/check_ins/37" for 127.0.0.1 at 2014-06-14 22:36:56 -0400
+Processing by CheckInsController#show as HTML
+  Parameters: {"id"=>"37"}
+  [1m[36mCheckIn Load (0.2ms)[0m  [1mSELECT  "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" = ? LIMIT 1[0m  [["id", 37]]
+  [1m[35mCatch Load (0.1ms)[0m  SELECT  "catches".* FROM "catches"  WHERE "catches"."check_in_id" = ? LIMIT 1  [["check_in_id", 37]]
+  Rendered catches/_catches.html.erb (10.6ms)
+  [1m[36mVessel Load (0.4ms)[0m  [1mSELECT  "vessels".* FROM "vessels"  WHERE "vessels"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 37]]
+  Rendered vessels/_vessel_partial.html.erb (4.6ms)
+  [1m[35mCheckInImage Load (0.1ms)[0m  SELECT  "check_in_images".* FROM "check_in_images"  WHERE "check_in_images"."check_in_id" = ? LIMIT 1  [["check_in_id", 37]]
+  Rendered check_ins/show.html.erb within layouts/application (22.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 27.4ms | ActiveRecord: 1.2ms | Solr: 30.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 22:36:56 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 22:36:56 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:56 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 22:36:56 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 22:36:56 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 22:36:56 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:56 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:56 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:56 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:56 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:56 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:56 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:56 -0400
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-06-14 22:36:56 -0400
+
+
+Started GET "/check_in/check_in_image/new/37" for 127.0.0.1 at 2014-06-14 22:36:58 -0400
+Processing by CheckInImagesController#new as HTML
+  Parameters: {"check_in_id"=>"37"}
+  Rendered check_in_images/_form.html.erb (56.6ms)
+  Rendered check_in_images/new.html.erb within layouts/application (58.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 67ms (Views: 65.3ms | ActiveRecord: 0.2ms | Solr: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 22:36:58 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 22:36:58 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 22:36:58 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 22:36:58 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:58 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:58 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 22:36:58 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:58 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:58 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:58 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:58 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:58 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 22:36:58 -0400
+
+
+Started POST "/check_in_images" for 127.0.0.1 at 2014-06-14 22:37:03 -0400
+Processing by CheckInImagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"98z9Ulk3k5tcE/SAFk2kfCb+8L8qW3EctBeR4Nc5WOQ=", "check_in_image"=>{"check_in_id"=>"37", "description"=>"dsad", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fddefd81bf0 @tempfile=#<Tempfile:/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/RackMultipart20140614-29384-14rw0ux>, @original_filename="logo.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"check_in_image[image]\"; filename=\"logo.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Submit"}
+Command :: file -b --mime '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-1uzisns.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp.jpg[0]'
+Command :: convert '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp.jpg[0]' -auto-orient -resize "1024x1024>" '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp20140614-29384-ilda9a'
+Command :: file -b --mime '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp20140614-29384-ilda9a'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp.jpg[0]'
+Command :: convert '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp.jpg[0]' -auto-orient -resize "600x600>" '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp20140614-29384-1l7x669'
+Command :: file -b --mime '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp20140614-29384-1l7x669'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp.jpg[0]'
+Command :: convert '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp.jpg[0]' -auto-orient -resize "300x300>" '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp20140614-29384-18s9fg'
+Command :: file -b --mime '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp20140614-29384-18s9fg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp.jpg[0]'
+Command :: convert '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp20140614-29384-yhuets'
+Command :: file -b --mime '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-oxykdp20140614-29384-yhuets'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/var/folders/hm/y_tcc0rx2mz1shvvxh5_dx_80000gn/T/96d6f2e7e1f705ab5e59c84a6dc009b220140614-29384-vjb9w.jpg'
+Binary data inserted for `string` type on column `image_content_type`
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "check_in_images" ("check_in_id", "created_at", "description", "image_content_type", "image_file_name", "image_file_size", "image_updated_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["check_in_id", 37], ["created_at", "2014-06-15 02:37:04.793097"], ["description", "dsad"], ["image_content_type", "image/jpeg"], ["image_file_name", "logo.jpg"], ["image_file_size", 736727], ["image_updated_at", "2014-06-15 02:37:03.887214"], ["updated_at", "2014-06-15 02:37:04.793097"]]
+  [1m[36m (5.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/check_ins/37
+Completed 302 Found in 951ms (ActiveRecord: 5.7ms)
+
+
+Started GET "/check_ins/37" for 127.0.0.1 at 2014-06-14 22:37:04 -0400
+Processing by CheckInsController#show as HTML
+  Parameters: {"id"=>"37"}
+  [1m[35mCheckIn Load (0.1ms)[0m  SELECT  "check_ins".* FROM "check_ins"  WHERE "check_ins"."id" = ? LIMIT 1  [["id", 37]]
+  [1m[36mCatch Load (0.1ms)[0m  [1mSELECT  "catches".* FROM "catches"  WHERE "catches"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 37]]
+  Rendered catches/_catches.html.erb (0.9ms)
+  [1m[35mVessel Load (0.1ms)[0m  SELECT  "vessels".* FROM "vessels"  WHERE "vessels"."check_in_id" = ? LIMIT 1  [["check_in_id", 37]]
+  Rendered vessels/_vessel_partial.html.erb (0.5ms)
+  [1m[36mCheckInImage Load (0.1ms)[0m  [1mSELECT  "check_in_images".* FROM "check_in_images"  WHERE "check_in_images"."check_in_id" = ? LIMIT 1[0m  [["check_in_id", 37]]
+  Rendered check_in_images/_images.html.erb (1.4ms)
+  Rendered check_ins/show.html.erb within layouts/application (8.3ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.3ms | Solr: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 22:37:04 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 22:37:04 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 22:37:04 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 22:37:04 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 22:37:04 -0400
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 22:37:04 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 22:37:04 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 22:37:04 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 22:37:04 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 22:37:04 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 22:37:04 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 22:37:04 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 22:37:04 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 22:37:06 -0400
+Processing by CheckInsController#new as HTML
+  Rendered check_ins/_form.html.erb (4.1ms)
+  Rendered check_ins/new.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/reports.css?body=1" for 127.0.0.1 at 2014-06-14 22:37:06 -0400
+
+
+Started GET "/assets/jumbotron-narrow.min.css?body=1" for 127.0.0.1 at 2014-06-14 22:37:06 -0400
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-06-14 22:37:06 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 22:37:06 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 22:37:06 -0400
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-06-14 22:37:06 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 22:37:06 -0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-06-14 22:37:06 -0400
+
+
+Started GET "/assets/check_in_images.js?body=1" for 127.0.0.1 at 2014-06-14 22:37:06 -0400
+
+
+Started GET "/assets/indexdb.js?body=1" for 127.0.0.1 at 2014-06-14 22:37:06 -0400
+
+
+Started GET "/assets/reports.js?body=1" for 127.0.0.1 at 2014-06-14 22:37:06 -0400
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-06-14 22:37:06 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 22:37:06 -0400
