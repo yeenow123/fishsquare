@@ -1,7 +1,9 @@
+<%= debug @check_ins %>
 
 <div class="container">
 
 	<h1>Check-in Reports</h1>
+
 
   <!-- ######## Map element --> 
   <div class="form-group">
@@ -21,13 +23,13 @@ function initialize() {
   map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
  var check_ins = [];
-
-  $.getJSON('/reports.json', function(data) {
+  // window.location.href is a stupid fucking hack
+  $.getJSON(window.location.href + '&wt=json', function(data) {
     $.each(data, function(i, val) {
 
       check_ins.push(val);
     })
-
+    console.log(check_ins);
     for (var j=0; j < check_ins.length; j++) {
       var coords = new google.maps.LatLng(check_ins[j].lat, check_ins[j].lng);
       var marker = new google.maps.Marker({
@@ -48,6 +50,7 @@ function initialize() {
 var ready;
 ready = function() {
 // document.getElementById("check_in_nav").setAttribute("class", "active");
+console.log("initialize");
 initialize();
 };
 
@@ -58,15 +61,7 @@ $(document).on('page:load', ready);
 
 </script>
 
-
-
-
-
-
-
-
-
-<h4>Search Check-ins</h4>
+<h4>Search</h4>
 <%= form_tag({controller: "reports", action: "index"}, method: "get") do %>
 
   <div class="form-group">
@@ -77,6 +72,50 @@ $(document).on('page:load', ready);
   <!-- ######## Submit form --> 
   <div class="form-group">
 	<%= submit_tag("Search", class: "btn btn-default") %>
+  </div>
+
+<% end %>
+
+<%= form_tag({controller: "reports", action: "index"}, method: "get") do %>
+
+  <div class="form-group">
+    <%= label :lat, "Lat" %><br>
+    <%= number_field_tag("lat", class: "form-control") %>
+  </div>
+  <div class="form-group">
+    <%= label :lng, "Lng" %><br>
+    <%= number_field_tag("lng", class: "form-control") %>
+  </div>
+
+  <div class="form-group">
+    <%= label :radius, "Radius" %><br>
+    <%= number_field_tag("radius", class: "form-control") %>
+  </div>  
+
+  <!-- ######## Submit form --> 
+  <div class="form-group">
+  <%= submit_tag("Search", class: "btn btn-default") %>
+  </div>
+
+<% end %>
+
+<h4>Search Check-ins</h4>
+
+<%= form_tag({controller: "reports", action: "index"}, method: "get") do %>
+
+  <div class="form-group">
+    <%= label :date_start, "Start Date" %><br>
+    <%= date_select("date","date_start", class: "form-control") %>
+  </div>
+
+  <div class="form-group">
+    <%= label :date_end, "End Date" %><br>
+    <%= date_select("date", "date_end", class: "form-control") %>
+  </div>
+
+  <!-- ######## Submit form --> 
+  <div class="form-group">
+  <%= submit_tag("Search", class: "btn btn-default") %>
   </div>
 
 <% end %>

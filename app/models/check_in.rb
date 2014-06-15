@@ -32,4 +32,8 @@ class CheckIn < ActiveRecord::Base
 	def has_catch?
 		self.report_type == 'Poaching // Illegal Fishing'
 	end
+
+	def search_time
+		report_time.to_time
+	end
 end
