@@ -46,7 +46,7 @@ gem 'spring',        group: :development
 
 group :production do 
 	# use postgresql for production
-	gem 'pg', '0.16.0'
+	gem 'pg', '0.17.1'
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
