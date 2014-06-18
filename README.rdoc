@@ -2,6 +2,6 @@
 
 * A lightweight and fully responsive web application for reporting illegal fishing and poor water conditions. 
 
-* DEMO AT: http://50.116.63.116/
+* DEMO AT: http://50.116.63.116:7000
 
 * Creators Yee-Ning Cheng and Andrew Zitek @andrewzitek 
